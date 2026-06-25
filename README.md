@@ -168,11 +168,9 @@
   <img src="https://streak-stats.demolab.com/?user=Cec1c&theme=dark&background=0d1117&border=30363d&ring=22c55e&fire=8b5cf6&currStreakLabel=7dd3fc&sideNums=c9d1d9&dates=8b949e" alt="Cec1c GitHub streak stats" />
 </p>
 
-<!-- 添加 .github/workflows/generate-snake.yml 并运行一次后，可以启用下面的贡献图动画。
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
 </p>
--->
 
 ---
 
