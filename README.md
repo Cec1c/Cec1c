@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-winter.svg" height="28" alt="冬 · Winter" />
-  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-lantern.svg" height="28" alt="灯 · Lantern" />
-  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-knock.svg" height="28" alt="启 · Knock" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-winter.svg" height="28" alt=" 冬 · Winter" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-lantern.svg" height="28" alt=" 灯 · Lantern" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-knock.svg" height="28" alt=" 启 · Knock" />
 </p>
 
 ---
