@@ -7,58 +7,17 @@
 </p>
 
 <p align="center">
-  <sub>Knock / Lantern / Forge / Secret Histories</sub>
+  <sub>Winter / Lantern / Knock</sub>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/knock.png" width="38" alt="Knock aspect" />
-      <br /><b>启 · Knock</b>
-      <br /><sub>门、接口、权限、边界穿越</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/lantern.png" width="38" alt="Lantern aspect" />
-      <br /><b>灯 · Lantern</b>
-      <br /><sub>显影、知识、可观察性</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/forge.png" width="38" alt="Forge aspect" />
-      <br /><b>铸 · Forge</b>
-      <br /><sub>工具、改造、工程实践</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/secretHistories.png" width="38" alt="Secret Histories aspect" />
-      <br /><b>秘史 · Secret Histories</b>
-      <br /><sub>路径、索引、隐藏主题</sub>
-    </td>
-  </tr>
-</table>
-
-```yaml
-profileAspects:
-  primaryAspect: knock
-  aspects: [knock, lantern, forge, secretHistories]
-  aspectWeights:
-    knock: 5
-    lantern: 3
-    forge: 2
-    secretHistories: 1
-  ink: "#9c55d4"
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-winter.svg" height="28" alt="冬 · Winter" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-lantern.svg" height="28" alt="灯 · Lantern" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-knock.svg" height="28" alt="启 · Knock" />
+</p>
 
 ---
 
-## 方向
-
-我做一些接进本地环境的工具：MCP、逆向辅助、批处理自动化、Windows/PowerShell 工作流，以及那些不好归类但确实能减少阻力的小东西。
-
-- `Knock`：接口、权限、MCP、把工具接进工具
-- `Lantern`：逆向、显影、解释、可观察性
-- `Forge`：批处理、构建、迁移、工程化
-- `Secret Histories`：索引、旁路、版本和被藏起来的路径
-
----
 
 ## 痕迹
 

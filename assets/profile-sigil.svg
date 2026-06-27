@@ -1,6 +1,6 @@
 <svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Cec1c profile sigil</title>
-  <desc id="desc">A dark esoteric sigil banner using Knock, Lantern, Forge and Secret Histories colors.</desc>
+  <desc id="desc">A dark esoteric sigil banner using Winter, Lantern and Knock colors.</desc>
   <defs>
     <radialGradient id="glow" cx="50%" cy="42%" r="70%">
       <stop offset="0%" stop-color="#3d2468" stop-opacity="0.78"/>
@@ -8,9 +8,9 @@
       <stop offset="100%" stop-color="#05040a"/>
     </radialGradient>
     <linearGradient id="line" x1="120" y1="42" x2="1080" y2="298" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#d8c66b"/>
-      <stop offset="0.46" stop-color="#9c55d4"/>
-      <stop offset="1" stop-color="#bd4eb3"/>
+      <stop stop-color="#95c8d2"/>
+      <stop offset="0.5" stop-color="#d8c66b"/>
+      <stop offset="1" stop-color="#9c55d4"/>
     </linearGradient>
     <filter id="soft">
       <feGaussianBlur stdDeviation="8"/>
@@ -34,8 +34,8 @@
     <path d="M18 126H234M126 18V234" stroke="#d8c66b" stroke-opacity="0.5" stroke-width="1"/>
     <circle cx="126" cy="126" r="7" fill="#d8c66b"/>
     <circle cx="126" cy="18" r="5" fill="#9c55d4"/>
-    <circle cx="234" cy="126" r="5" fill="#d4772e"/>
-    <circle cx="126" cy="234" r="5" fill="#bd4eb3"/>
+    <circle cx="234" cy="126" r="5" fill="#d8c66b"/>
+    <circle cx="126" cy="234" r="5" fill="#9c55d4"/>
     <circle cx="18" cy="126" r="5" fill="#95c8d2"/>
   </g>
 
@@ -45,17 +45,15 @@
   </g>
 
   <text x="110" y="138" fill="#f4ead1" font-family="JetBrains Mono, Consolas, monospace" font-size="72" font-weight="700">Cec1c</text>
-  <text x="114" y="182" fill="#d8c66b" font-family="JetBrains Mono, Consolas, monospace" font-size="22">Knock / Lantern / Forge / Secret Histories</text>
+  <text x="114" y="182" fill="#d8c66b" font-family="JetBrains Mono, Consolas, monospace" font-size="22">Winter / Lantern / Knock</text>
   <text x="114" y="224" fill="#b8ad90" font-family="JetBrains Mono, Consolas, monospace" font-size="20">MCP · reverse engineering · local automation</text>
 
   <g transform="translate(114 260)" font-family="JetBrains Mono, Consolas, monospace" font-size="15">
-    <rect width="92" height="28" rx="14" fill="#9c55d4" fill-opacity="0.18" stroke="#9c55d4"/>
-    <text x="18" y="19" fill="#e8d9ff">KNOCK</text>
+    <rect width="92" height="28" rx="14" fill="#95c8d2" fill-opacity="0.16" stroke="#95c8d2"/>
+    <text x="17" y="19" fill="#d7f4f8">WINTER</text>
     <rect x="108" width="108" height="28" rx="14" fill="#e0d23f" fill-opacity="0.14" stroke="#d8c66b"/>
     <text x="126" y="19" fill="#fff3a0">LANTERN</text>
-    <rect x="232" width="88" height="28" rx="14" fill="#d4772e" fill-opacity="0.16" stroke="#d4772e"/>
-    <text x="251" y="19" fill="#ffd2a8">FORGE</text>
-    <rect x="336" width="178" height="28" rx="14" fill="#bd4eb3" fill-opacity="0.16" stroke="#bd4eb3"/>
-    <text x="354" y="19" fill="#ffd2fb">SECRET HISTORIES</text>
+    <rect x="232" width="92" height="28" rx="14" fill="#9c55d4" fill-opacity="0.18" stroke="#9c55d4"/>
+    <text x="250" y="19" fill="#e8d9ff">KNOCK</text>
   </g>
 </svg>

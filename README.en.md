@@ -7,56 +7,14 @@
 </p>
 
 <p align="center">
-  <sub>Knock / Lantern / Forge / Secret Histories</sub>
+  <sub>Winter / Lantern / Knock</sub>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/knock.png" width="38" alt="Knock aspect" />
-      <br /><b>Knock</b>
-      <br /><sub>doors, interfaces, permissions</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/lantern.png" width="38" alt="Lantern aspect" />
-      <br /><b>Lantern</b>
-      <br /><sub>visibility, knowledge, analysis</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/forge.png" width="38" alt="Forge aspect" />
-      <br /><b>Forge</b>
-      <br /><sub>tools, change, engineering</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Cec1c/mansus/master/public/assets/aspects/secretHistories.png" width="38" alt="Secret Histories aspect" />
-      <br /><b>Secret Histories</b>
-      <br /><sub>paths, indexes, hidden themes</sub>
-    </td>
-  </tr>
-</table>
-
-```yaml
-profileAspects:
-  primaryAspect: knock
-  aspects: [knock, lantern, forge, secretHistories]
-  aspectWeights:
-    knock: 5
-    lantern: 3
-    forge: 2
-    secretHistories: 1
-  ink: "#9c55d4"
-```
-
----
-
-## Direction
-
-I build local-first tools around MCP, reverse engineering, batch automation, Windows/PowerShell workflows, and small bridges that remove real friction.
-
-- `Knock`: interfaces, permissions, MCP, wiring tools into tools
-- `Lantern`: reverse engineering, visibility, explanations, observability
-- `Forge`: batch processing, builds, migrations, engineering practice
-- `Secret Histories`: indexes, side paths, versions, hidden routes
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-winter.svg" height="28" alt="Winter" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-lantern.svg" height="28" alt="Lantern" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-knock.svg" height="28" alt="Knock" />
+</p>
 
 ---
 
