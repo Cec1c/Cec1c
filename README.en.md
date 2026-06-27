@@ -2,12 +2,15 @@
   <a href="./README.md">简体中文</a> | English
 </p>
 
+<!--
+  Typing header:
+  - Edit the lines=... URL parameter below; separate entries with ;.
+  - Common params: color= text color, pause= delay, duration= typing speed, size= font size, width=/height= canvas size.
+-->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/profile-sigil.svg" width="100%" alt="Cec1c profile sigil" />
-</p>
-
-<p align="center">
-  <sub>Winter / Lantern / Knock</sub>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=BD4EB3&center=true&vCenter=true&width=720&height=56&lines=Edit+this+first+line;Edit+this+second+line;Edit+this+third+line" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">

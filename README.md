@@ -2,15 +2,18 @@
   简体中文 | <a href="./README.en.md">English</a>
 </p>
 
+<!--
+  Typing header:
+  - 改下面 URL 里的 lines=... 来换文字，用 ; 分隔每一行。
+  - 常改参数：color= 字色，pause= 停顿，duration= 打字速度，size= 字号，width=/height= 画布尺寸。
+-->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/profile-sigil.svg" width="100%" alt="Cec1c profile sigil" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=BD4EB3&center=true&vCenter=true&width=720&height=56&lines=%E5%9C%A8%E8%BF%99%E9%87%8C%E6%94%B9%E7%AC%AC%E4%B8%80%E8%A1%8C;%E5%9C%A8%E8%BF%99%E9%87%8C%E6%94%B9%E7%AC%AC%E4%BA%8C%E8%A1%8C;%E5%9C%A8%E8%BF%99%E9%87%8C%E6%94%B9%E7%AC%AC%E4%B8%89%E8%A1%8C" alt="Typing SVG" />
+  </a>
 </p>
 
-<p align="center">
-  <sub>Winter / Lantern / Knock</sub>
-</p>
-
-<p align="center">
+<p align="right">
   <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-winter.svg" height="28" alt=" 冬 · Winter" />
   <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-lantern.svg" height="28" alt=" 灯 · Lantern" />
   <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/aspects/badge-knock.svg" height="28" alt=" 启 · Knock" />
