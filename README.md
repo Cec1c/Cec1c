@@ -30,7 +30,7 @@
   </a>
   想加入一起玩：
   <a href="https://qm.qq.com/cgi-bin/qm/qr?group_code=908172336">
-    <img src="https://img.shields.io/badge/QQ%E7%BE%A4-908172336-12B7F5?style=for-the-badge&logo=tencentqq&logoColor=white" alt="加入 QQ 群" />
+    <img src="https://img.shields.io/badge/QQ-%E5%8A%A0%E5%85%A5%E7%BE%A4-12B7F5?style=flat-square&logo=tencentqq&logoColor=white&labelColor=111827" alt="加入 QQ 群 908172336" />
   </a>
 </p>
 
