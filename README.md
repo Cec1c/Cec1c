@@ -23,14 +23,14 @@
 ---
 ## 我还维护着一个复古老游戏的公益服务器
 
-<!-- QQ 群如果拿到后台生成的完整邀请链接，可替换下面 QQ 按钮的 href。 -->
-<p align="center">
+<p align="left">
+  赞助我→
   <a href="https://ifdian.net/a/Cecic">
-    <img width="180" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="爱发电" />
+    <img width="90" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="爱发电" />
   </a>
-  &nbsp;
+  想加入一起玩→
   <a href="https://qm.qq.com/cgi-bin/qm/qr?group_code=908172336">
-    <img src="https://img.shields.io/badge/QQ%E7%BE%A4-908172336-12B7F5?style=for-the-badge&logo=tencentqq&logoColor=white" alt="加入 QQ 群 908172336" />
+    <img src="https://img.shields.io/badge/QQ%E7%BE%A4-908172336-12B7F5?style=for-the-badge&logo=tencentqq&logoColor=white" alt="加入 QQ 群" />
   </a>
 </p>
 
