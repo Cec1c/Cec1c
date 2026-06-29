@@ -9,7 +9,7 @@
 -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=BD4EB3&center=true&vCenter=true&width=720&height=56&lines=%E5%9C%A8%E8%BF%99%E9%87%8C%E6%94%B9%E7%AC%AC%E4%B8%80%E8%A1%8C;%E5%9C%A8%E8%BF%99%E9%87%8C%E6%94%B9%E7%AC%AC%E4%BA%8C%E8%A1%8C;%E5%9C%A8%E8%BF%99%E9%87%8C%E6%94%B9%E7%AC%AC%E4%B8%89%E8%A1%8C" alt="Typing SVG" />
+    [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=49F711&background=000000E4&center=true&multiline=true&width=435&height=75&lines=Hello%2CI'm+Cec1c.;%E4%BB%8A%E6%97%A5%E6%89%80%E6%B1%82%E4%BD%95%E7%89%A9%EF%BC%9F)](https://git.io/typing-svg)
   </a>
 </p>
 
