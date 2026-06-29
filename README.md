@@ -23,17 +23,13 @@
 ---
 ## 我还维护着一个复古老游戏的公益服务器
 
-<p align="right">
-  
+<p align="center">
   <a href="https://ifdian.net/a/Cecic">
-    <img width="150" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="爱发电" />
+    <img width="120" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="爱发电" />
   </a>
-  赞助我
-  
   <a href="https://qm.qq.com/cgi-bin/qm/qr?group_code=908172336">
     <img src="https://img.shields.io/badge/QQ-%E5%8A%A0%E5%85%A5%E7%BE%A4-12B7F5?style=flat-square&logo=tencentqq&logoColor=white&labelColor=111827" alt="加入 QQ 群 908172336" />
   </a>
-  想加入一起玩
 </p>
 
 ---
