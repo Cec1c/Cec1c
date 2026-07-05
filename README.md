@@ -130,17 +130,6 @@
 
 ## 大家流行的状态条
 
-<table align="center">
-  <tr>
-    <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=Cec1c&show_icons=true&include_all_commits=true&theme=dark&bg_color=05040a&title_color=d8c66b&icon_color=9c55d4&text_color=d9d3c3&border_color=2b223f" alt="Cec1c GitHub stats" />
-    </td>
-    <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cec1c&layout=compact&theme=dark&bg_color=05040a&title_color=d8c66b&text_color=d9d3c3&border_color=2b223f" alt="Cec1c top languages" />
-    </td>
-  </tr>
-</table>
-
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Cec1c&theme=dark&background=05040a&border=2b223f&ring=9c55d4&fire=d4772e&currStreakLabel=d8c66b&sideNums=d9d3c3&dates=b8ad90" alt="Cec1c GitHub streak stats" />
 </p>
