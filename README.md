@@ -110,7 +110,6 @@
       <p><a href="https://github.com/Cec1c/Survey">Repository</a></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/Cec1c/Survey?style=flat-square&color=d8c66b" alt="Survey top language" />
-        <img src="https://img.shields.io/badge/Lantern-reverse%20engineering-d8c66b?style=flat-square" alt="Lantern reverse engineering" />
       </p>
     </td>
   </tr>
