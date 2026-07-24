@@ -21,35 +21,34 @@
 
 ---
 
-## Marks
+## Current Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Claude Code Chinese Localization</h3>
+      <h3>Codex-Cli-Ultra</h3>
       <p>
-        Contributor to <a href="https://github.com/taekchef/claude-code-zh-cn"><b>taekchef/claude-code-zh-cn</b></a>,
-        a 450+ star Claude Code localization project.
+        <a href="https://github.com/Cec1c/codex-cli-ultra"><b>Cec1c/codex-cli-ultra</b></a>
+        adds external FTL language packs, Windows installation management, and optional interface extensions to Codex CLI.
       </p>
       <p>
-        <a href="https://github.com/taekchef/claude-code-zh-cn/pull/11">Merged PR #11</a>:
-        Windows PowerShell installation, hooks, launcher support, and UI translation improvements.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/merged-PR%20%2311-9c55d4?style=flat-square" alt="Merged PR 11" />
-        <img src="https://img.shields.io/badge/files-21-d8c66b?style=flat-square" alt="21 files changed" />
-        <img src="https://img.shields.io/badge/additions-5421-bd4eb3?style=flat-square" alt="5421 additions" />
+        <img src="https://img.shields.io/github/v/release/Cec1c/codex-cli-ultra?display_name=tag&style=flat-square&color=9c55d4" alt="Codex CLI Ultra release" />
+        <img src="https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows x64" />
+        <img src="https://img.shields.io/github/stars/Cec1c/codex-cli-ultra?style=flat-square&color=d8c66b" alt="Codex CLI Ultra stars" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>PVF-MCP</h3>
+      <h3>Mansus</h3>
       <p>
-        <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a> is a Go MCP server for pvfUtility,
-        exposing PVF viewing, editing, and serialization workflows to Claude Code, Cursor, and Codex.
+        <a href="https://github.com/Cec1c/Mansus"><b>Cec1c/Mansus</b></a>
+        is an Astro blog template based on Firefly, with aspect-based ink mixing, Markdown / MDX, full-text search, and quick GitHub Pages deployment.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Go-MCP%20Server-d4772e?style=flat-square&logo=go&logoColor=white" alt="Go MCP server" />
-        <img src="https://img.shields.io/badge/Knock-local%20bridge-9c55d4?style=flat-square" alt="Knock local bridge" />
+        <a href="https://mansus.cc">Live demo</a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Astro-blog%20template-d4772e?style=flat-square&logo=astro&logoColor=white" alt="Astro blog template" />
+        <img src="https://img.shields.io/badge/deploy-GitHub%20Pages-9c55d4?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
       </p>
     </td>
   </tr>
@@ -57,50 +56,66 @@
 
 ---
 
-## Instruments
+## Contributions & Tools
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Claude Code Chinese Localization</h3>
+      <p>
+        Contributor to <a href="https://github.com/taekchef/claude-code-zh-cn"><b>taekchef/claude-code-zh-cn</b></a>.
+      </p>
+      <p>
+        <a href="https://github.com/taekchef/claude-code-zh-cn/pull/11">Merged PR #11</a>:
+        Windows PowerShell installation, hooks, launcher support, and UI translation improvements.
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/stars/taekchef/claude-code-zh-cn?style=flat-square&color=9c55d4" alt="Claude Code Chinese localization stars" />
+        <img src="https://img.shields.io/badge/merged-PR%20%2311-d8c66b?style=flat-square" alt="Merged PR 11" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>PVF-MCP</h3>
+      <p>
+        <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a>
+        is a Go MCP server for pvfUtility, exposing 26 tools for PVF search, structured editing, serialization, and saving.
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/v/release/Cec1c/PVF-MCP?display_name=tag&style=flat-square&color=d4772e" alt="PVF-MCP release" />
+        <img src="https://img.shields.io/badge/Go-MCP%20Server-9c55d4?style=flat-square&logo=go&logoColor=white" alt="Go MCP server" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Other Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Aletheia Lens</h3>
-      <p>GUI batch image processing tool built around DeepCreamPy and automated mask detection.</p>
+      <p>GUI batch image processing tool with packaged CPU / CUDA 12 builds, folder and archive inputs, preserved directory structures, and automated mask detection.</p>
       <p><a href="https://github.com/Cec1c/Aletheia-Lens">Repository</a></p>
       <p>
-        <img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&color=9c55d4" alt="Aletheia Lens stars" />
-        <img src="https://img.shields.io/github/languages/top/Cec1c/Aletheia-Lens?style=flat-square&color=d8c66b" alt="Aletheia Lens top language" />
+        <img src="https://img.shields.io/github/v/release/Cec1c/Aletheia-Lens?display_name=tag&style=flat-square&color=9c55d4" alt="Aletheia Lens release" />
+        <img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&color=d8c66b" alt="Aletheia Lens stars" />
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>DeepCreamPy Batch Processor</h3>
-      <p>Batch processor that preserves folder structure and transparency while handling large image sets.</p>
-      <p><a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor">Repository</a></p>
-      <p>
-        <img src="https://img.shields.io/github/stars/Cec1c/DeepCreamPy-Batch-Processor?style=flat-square&color=9c55d4" alt="DeepCreamPy Batch Processor stars" />
-        <img src="https://img.shields.io/github/languages/top/Cec1c/DeepCreamPy-Batch-Processor?style=flat-square&color=d8c66b" alt="DeepCreamPy Batch Processor top language" />
-      </p>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>Survey</h3>
-      <p>LLM-powered reverse engineering assistant with GUI and CLI surfaces plus an MCP bridge to IDA Pro.</p>
+      <p>LLM-powered reverse engineering assistant with GUI and CLI surfaces plus an MCP bridge to 50+ IDA Pro tools.</p>
       <p><a href="https://github.com/Cec1c/Survey">Repository</a></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/Cec1c/Survey?style=flat-square&color=d8c66b" alt="Survey top language" />
         <img src="https://img.shields.io/badge/Lantern-reverse%20engineering-d8c66b?style=flat-square" alt="Lantern reverse engineering" />
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>mansus</h3>
-      <p>Blog and experiment space. Its aspect and ink systems are the visual source for this profile.</p>
-      <p><a href="https://github.com/Cec1c/mansus">Repository</a></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/Cec1c/mansus?style=flat-square&color=d4772e" alt="mansus top language" />
-        <img src="https://img.shields.io/badge/Mansus-aspect%20system-bd4eb3?style=flat-square" alt="Mansus aspect system" />
-      </p>
-    </td>
   </tr>
 </table>
+
+Earlier project: <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor">DeepCreamPy Batch Processor</a> (superseded by Aletheia Lens and no longer maintained).
 
 ---
 
@@ -110,6 +125,7 @@
   <img src="https://img.shields.io/badge/Python-0b0a10?style=flat-square&logo=python&logoColor=d8c66b&labelColor=191222" alt="Python" />
   <img src="https://img.shields.io/badge/Go-0b0a10?style=flat-square&logo=go&logoColor=95c8d2&labelColor=191222" alt="Go" />
   <img src="https://img.shields.io/badge/JavaScript-0b0a10?style=flat-square&logo=javascript&logoColor=d8c66b&labelColor=191222" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Rust-0b0a10?style=flat-square&logo=rust&logoColor=d4772e&labelColor=191222" alt="Rust" />
   <img src="https://img.shields.io/badge/Astro-0b0a10?style=flat-square&logo=astro&logoColor=d4772e&labelColor=191222" alt="Astro" />
   <img src="https://img.shields.io/badge/PowerShell-0b0a10?style=flat-square&logo=powershell&logoColor=9c55d4&labelColor=191222" alt="PowerShell" />
 </p>
