@@ -9,11 +9,11 @@
   - 窗口栏和底边在 assets/mac-terminal-*.svg；三部分的 width 要保持一致。
 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/mac-terminal-titlebar.svg" width="560" alt="macOS 风格深色终端窗口栏" /><br />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/mac-terminal-titlebar.svg" width="868" alt="macOS 风格深色终端窗口栏" /><br />
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&pause=1000&color=BEEEFF&background=05070A&center=true&vCenter=true&multiline=true&width=560&height=82&lines=Hello%2CI'm+Cec1c.;%E4%BB%8A%E6%97%A5%E6%89%80%E6%B1%82%E4%BD%95%E7%89%A9%EF%BC%9F" width="868" alt="Typing SVG" />
   </a><br />
-  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/mac-terminal-footer.svg" width="560" alt="深色终端圆角底边" />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/mac-terminal-footer.svg" width="868" alt="深色终端圆角底边" />
 </p>
 
 
