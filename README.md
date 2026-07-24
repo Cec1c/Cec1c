@@ -115,7 +115,6 @@
   </tr>
 </table>
 
-早期项目：<a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor">DeepCreamPy Batch Processor</a>（功能路线已由 Aletheia Lens 接续，不再维护）。
 
 ---
 
