@@ -6,13 +6,14 @@
   macOS dark terminal + Typing header:
   - Edit the lines=... URL parameter below; separate entries with ;.
   - Common params: color= text color, background= background color, pause= delay, duration= typing speed, size= font size.
-  - The title bar is assets/mac-terminal-titlebar.svg; keep its width aligned with the typing canvas.
+  - The title bar and footer are assets/mac-terminal-*.svg; keep all three widths aligned.
 -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/mac-terminal-titlebar.svg" width="560" alt="macOS-style dark terminal title bar" /><br />
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&pause=1000&color=BEEEFF&background=0D1117&center=true&vCenter=true&multiline=true&width=560&height=82&lines=Hello%2CI'm+Cec1c.;What+do+we+want+today%3F" width="560" alt="Typing SVG" />
-  </a>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&pause=1000&color=BEEEFF&background=05070A&center=true&vCenter=true&multiline=true&width=560&height=82&lines=Hello%2CI'm+Cec1c.;What+do+we+want+today%3F" width="560" alt="Typing SVG" />
+  </a><br />
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/mac-terminal-footer.svg" width="560" alt="Rounded dark terminal footer" />
 </p>
 
 <p align="center">
