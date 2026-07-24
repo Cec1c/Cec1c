@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="38" viewBox="0 0 560 38" role="img" aria-labelledby="title desc">
+  <title id="title">macOS-style terminal title bar</title>
+  <desc id="desc">A dark terminal title bar with red, yellow, and green window controls.</desc>
+  <path d="M12 0h536a12 12 0 0 1 12 12v26H0V12A12 12 0 0 1 12 0Z" fill="#161b22"/>
+  <path d="M12 .5h536A11.5 11.5 0 0 1 559.5 12v25.5H.5V12A11.5 11.5 0 0 1 12 .5Z" fill="none" stroke="#30363d"/>
+  <circle cx="19" cy="19" r="5.5" fill="#ff5f57"/>
+  <circle cx="38" cy="19" r="5.5" fill="#febc2e"/>
+  <circle cx="57" cy="19" r="5.5" fill="#28c840"/>
+  <text x="280" y="23" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" text-anchor="middle">cec1c — profile</text>
+  <path d="M0 37.5h560" stroke="#30363d"/>
+</svg>

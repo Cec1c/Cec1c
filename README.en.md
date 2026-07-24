@@ -3,13 +3,15 @@
 </p>
 
 <!--
-  Typing header:
+  macOS dark terminal + Typing header:
   - Edit the lines=... URL parameter below; separate entries with ;.
-  - Common params: color= text color, pause= delay, duration= typing speed, size= font size, width=/height= canvas size.
+  - Common params: color= text color, background= background color, pause= delay, duration= typing speed, size= font size.
+  - The title bar is assets/mac-terminal-titlebar.svg; keep its width aligned with the typing canvas.
 -->
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Cec1c/Cec1c/main/assets/mac-terminal-titlebar.svg" width="560" alt="macOS-style dark terminal title bar" /><br />
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=BEEEFF&center=true&multiline=true&width=435&height=75&lines=Hello%2CI'm+Cec1c.;What+do+we+want+today%3F" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&pause=1000&color=BEEEFF&background=0D1117&center=true&vCenter=true&multiline=true&width=560&height=82&lines=Hello%2CI'm+Cec1c.;What+do+we+want+today%3F" width="560" alt="Typing SVG" />
   </a>
 </p>
 
