@@ -33,12 +33,60 @@
       <h3>Codex-Cli-Ultra</h3>
       <p>
         <a href="https://github.com/Cec1c/codex-cli-ultra"><b>Cec1c/codex-cli-ultra</b></a>
-        为 Codex CLI 提供外置 FTL 语言包、Windows 安装管理和可选界面扩展，当前参考实现为简体中文。
+        为 Codex CLI 提供外置 Fluent FTL 语言包、Windows / Linux / macOS 安装管理，以及可选的主题与状态栏扩展。当前参考语言包为简体中文，可通过 CCU Manager 管理安装和更新。
       </p>
       <p>
-        <img src="https://img.shields.io/github/v/release/Cec1c/codex-cli-ultra?display_name=tag&style=flat-square&color=9c55d4" alt="Codex CLI Ultra release" />
-        <img src="https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows x64" />
-        <img src="https://img.shields.io/github/stars/Cec1c/codex-cli-ultra?style=flat-square&color=d8c66b" alt="Codex CLI Ultra stars" />
+        <a href="https://github.com/Cec1c/codex-cli-ultra/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/codex-cli-ultra?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Codex CLI Ultra release" /></a>
+        <a href="https://github.com/Cec1c/codex-cli-ultra/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/codex-cli-ultra?style=flat-square&amp;color=d8c66b" alt="Codex CLI Ultra stars" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Aletheia Lens</h3>
+      <p>
+        <a href="https://github.com/Cec1c/Aletheia-Lens"><b>Cec1c/Aletheia-Lens</b></a>
+        基于 ONNX Runtime 的本地图像修复工具，提供 Windows GUI 和 CPU / CUDA 12 打包版，支持文件夹与压缩包批处理、目录结构保留、自动遮罩识别和漫画去网点预处理。
+      </p>
+      <p>实验性手动标注修复已加入，目前仅支持静态单图片和模式 I。</p>
+      <p>
+        <a href="https://github.com/Cec1c/Aletheia-Lens/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/Aletheia-Lens?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Aletheia Lens release" /></a>
+        <a href="https://github.com/Cec1c/Aletheia-Lens/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&amp;color=d8c66b" alt="Aletheia Lens stars" /></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>ERPNext-MCP</h3>
+      <p>
+        <a href="https://github.com/Cec1c/ERPNext-MCP"><b>Cec1c/ERPNext-MCP</b></a>
+        面向 ERPNext / Frappe 的 MCP 服务，支持原生 HTTP API、文档与报表查询，以及制造和库存流程追踪。默认启用 Safe Mode，敏感操作按确认后的固定计划执行，大型请求和响应可完整保存、分段读取。
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/ERPNext-MCP"><img src="https://img.shields.io/static/v1?label=Python&amp;message=MCP+Server&amp;color=9c55d4&amp;style=flat-square" alt="Python: MCP Server" /></a>
+        <a href="https://github.com/Cec1c/ERPNext-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/ERPNext-MCP?style=flat-square&amp;color=d8c66b" alt="ERPNext MCP stars" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>PVF-MCP</h3>
+      <p>
+        <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a>
+        是面向 pvfUtility 的 Go MCP Server，以 26 个工具覆盖 PVF 搜索、结构化编辑、序列化和保存流程。支持读取编辑器当前文档与选中文件，通过 stdio 接入 AI 客户端。
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/PVF-MCP/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/PVF-MCP?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=d4772e" alt="PVF-MCP release" /></a>
+        <a href="https://github.com/Cec1c/PVF-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/PVF-MCP?style=flat-square&amp;color=d8c66b" alt="PVF-MCP stars" /></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>CPAMP Theme Studio</h3>
+      <p>
+        <a href="https://github.com/Cec1c/cpamp-theme-studio"><b>Cec1c/cpamp-theme-studio</b></a>
+        为 CPA Manager Plus 提供独立的主题工作室插件，可通过插件商店安装。支持预设配色、自定义强调色、明暗模式、字体、圆角与布局调整，实时预览并在浏览器中保存设置。
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/cpamp-theme-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/cpamp-theme-studio?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="CPAMP Theme Studio release" /></a>
+        <a href="https://github.com/Cec1c/cpamp-theme-studio/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/cpamp-theme-studio?style=flat-square&amp;color=d8c66b" alt="CPAMP Theme Studio stars" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -47,12 +95,10 @@
         <a href="https://github.com/Cec1c/Mansus"><b>Cec1c/Mansus</b></a>
         是基于 Firefly 二次开发的 Astro 博客模板，支持准则墨水混色、Markdown / MDX、全文搜索和 GitHub Pages 快速部署。
       </p>
+      <p><a href="https://mansus.cc">在线示范</a></p>
       <p>
-        <a href="https://mansus.cc">在线示范</a>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Astro-blog%20template-d4772e?style=flat-square&logo=astro&logoColor=white" alt="Astro blog template" />
-        <img src="https://img.shields.io/badge/deploy-GitHub%20Pages-9c55d4?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
+        <a href="https://github.com/Cec1c/Mansus"><img src="https://img.shields.io/static/v1?label=Astro&amp;message=blog+template&amp;color=d4772e&amp;style=flat-square" alt="Astro: blog template" /></a>
+        <a href="https://github.com/Cec1c/Mansus/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Mansus?style=flat-square&amp;color=d8c66b" alt="Mansus stars" /></a>
       </p>
     </td>
   </tr>
@@ -65,28 +111,27 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Claude Code 中文本地化</h3>
+      <h3>CPA-Manager-Plus</h3>
       <p>
-        参与 <a href="https://github.com/taekchef/claude-code-zh-cn"><b>taekchef/claude-code-zh-cn</b></a>。
+        <a href="https://github.com/seakee/CPA-Manager-Plus"><b>seakee/CPA-Manager-Plus</b></a>
+        参与修复 Manager Server 插件资源代理中的认证提权问题。
       </p>
+      <p><a href="https://github.com/seakee/CPA-Manager-Plus/pull/463">Merged PR #463</a>：仅在通过管理员认证后使用保存的管理密钥，保留调用者自身的认证信息，并补充回归测试。</p>
       <p>
-        <a href="https://github.com/taekchef/claude-code-zh-cn/pull/11">Merged PR #11</a>：
-        Windows PowerShell 安装、Hook、launcher 支持，以及 UI 翻译补全。
-      </p>
-      <p>
-        <img src="https://img.shields.io/github/stars/taekchef/claude-code-zh-cn?style=flat-square&color=9c55d4" alt="Claude Code Chinese localization stars" />
-        <img src="https://img.shields.io/badge/merged-PR%20%2311-d8c66b?style=flat-square" alt="Merged PR 11" />
+        <a href="https://github.com/seakee/CPA-Manager-Plus/stargazers"><img src="https://img.shields.io/github/stars/seakee/CPA-Manager-Plus?style=flat-square&amp;color=9c55d4" alt="CPA-Manager-Plus stars" /></a>
+        <a href="https://github.com/seakee/CPA-Manager-Plus/pull/463"><img src="https://img.shields.io/badge/merged-PR%20%23463-d8c66b?style=flat-square" alt="Merged PR 463" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>PVF-MCP</h3>
+      <h3>Claude Code 中文本地化</h3>
       <p>
-        <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a>
-        是面向 pvfUtility 的 Go MCP Server，以 26 个工具覆盖 PVF 搜索、结构化编辑、序列化和保存流程。
+        <a href="https://github.com/taekchef/claude-code-zh-cn"><b>taekchef/claude-code-zh-cn</b></a>
+        参与 Windows 平台支持和 UI 翻译补全。
       </p>
+      <p><a href="https://github.com/taekchef/claude-code-zh-cn/pull/11">Merged PR #11</a>：Windows PowerShell 安装、Hook、launcher 支持，以及 UI 翻译补全。</p>
       <p>
-        <img src="https://img.shields.io/github/v/release/Cec1c/PVF-MCP?display_name=tag&style=flat-square&color=d4772e" alt="PVF-MCP release" />
-        <img src="https://img.shields.io/badge/Go-MCP%20Server-9c55d4?style=flat-square&logo=go&logoColor=white" alt="Go MCP server" />
+        <a href="https://github.com/taekchef/claude-code-zh-cn/stargazers"><img src="https://img.shields.io/github/stars/taekchef/claude-code-zh-cn?style=flat-square&amp;color=9c55d4" alt="Claude Code Chinese localization stars" /></a>
+        <a href="https://github.com/taekchef/claude-code-zh-cn/pull/11"><img src="https://img.shields.io/badge/merged-PR%20%2311-d8c66b?style=flat-square" alt="Merged PR 11" /></a>
       </p>
     </td>
   </tr>
@@ -99,25 +144,28 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Aletheia Lens</h3>
-      <p>带 GUI 的批量图像处理工具，提供 CPU / CUDA 12 打包版，支持文件夹与压缩包批处理、目录结构保留和自动遮罩识别。</p>
-      <p><a href="https://github.com/Cec1c/Aletheia-Lens">Repository</a></p>
+      <h3>Survey</h3>
       <p>
-        <img src="https://img.shields.io/github/v/release/Cec1c/Aletheia-Lens?display_name=tag&style=flat-square&color=9c55d4" alt="Aletheia Lens release" />
-        <img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&color=d8c66b" alt="Aletheia Lens stars" />
+        <a href="https://github.com/Cec1c/Survey"><b>Cec1c/Survey</b></a>
+        面向 IDA Pro 的 LLM 逆向分析助手，提供 GUI + CLI 双入口，通过 MCP Bridge 读取反编译、交叉引用和内存数据，辅助重命名、注释与类型整理。
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/Survey"><img src="https://img.shields.io/static/v1?label=Python&amp;message=IDA+Pro&amp;color=d4772e&amp;style=flat-square" alt="Python: IDA Pro" /></a>
+        <a href="https://github.com/Cec1c/Survey/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Survey?style=flat-square&amp;color=d8c66b" alt="Survey stars" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>Survey</h3>
-      <p>LLM 驱动的逆向工程助手，提供 GUI + CLI 双入口，并通过 MCP 桥接 50+ 个 IDA Pro 工具。</p>
-      <p><a href="https://github.com/Cec1c/Survey">Repository</a></p>
+      <h3>DeepCreamPy Batch Processor</h3>
       <p>
-        <img src="https://img.shields.io/github/languages/top/Cec1c/Survey?style=flat-square&color=d8c66b" alt="Survey top language" />
+        <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor"><b>Cec1c/DeepCreamPy-Batch-Processor</b></a>
+        早期的批量图像修复脚本，基于 DeepCreamPy FastAPI，支持目录结构与透明图层保留。已停止更新，后续开发转至 <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>。
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/DeepCreamPy-Batch-Processor?style=flat-square&amp;color=d8c66b" alt="DeepCreamPy Batch Processor stars" /></a>
       </p>
     </td>
   </tr>
 </table>
-
 
 ---
 

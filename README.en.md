@@ -32,12 +32,60 @@
       <h3>Codex-Cli-Ultra</h3>
       <p>
         <a href="https://github.com/Cec1c/codex-cli-ultra"><b>Cec1c/codex-cli-ultra</b></a>
-        adds external FTL language packs, Windows installation management, and optional interface extensions to Codex CLI.
+        adds external Fluent FTL language packs, Windows / Linux / macOS installation management, and optional themes and status-line extensions to Codex CLI. Simplified Chinese is the reference language pack; CCU Manager handles installation and updates.
       </p>
       <p>
-        <img src="https://img.shields.io/github/v/release/Cec1c/codex-cli-ultra?display_name=tag&style=flat-square&color=9c55d4" alt="Codex CLI Ultra release" />
-        <img src="https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows x64" />
-        <img src="https://img.shields.io/github/stars/Cec1c/codex-cli-ultra?style=flat-square&color=d8c66b" alt="Codex CLI Ultra stars" />
+        <a href="https://github.com/Cec1c/codex-cli-ultra/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/codex-cli-ultra?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Codex CLI Ultra release" /></a>
+        <a href="https://github.com/Cec1c/codex-cli-ultra/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/codex-cli-ultra?style=flat-square&amp;color=d8c66b" alt="Codex CLI Ultra stars" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Aletheia Lens</h3>
+      <p>
+        <a href="https://github.com/Cec1c/Aletheia-Lens"><b>Cec1c/Aletheia-Lens</b></a>
+        is a local image restoration tool built on ONNX Runtime, with a Windows GUI and CPU / CUDA 12 packages. It supports folder and archive batches, preserved directory structures, automatic mask detection, and optional manga descreening.
+      </p>
+      <p>Experimental manual mask editing is available for single static images in mode I.</p>
+      <p>
+        <a href="https://github.com/Cec1c/Aletheia-Lens/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/Aletheia-Lens?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Aletheia Lens release" /></a>
+        <a href="https://github.com/Cec1c/Aletheia-Lens/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&amp;color=d8c66b" alt="Aletheia Lens stars" /></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>ERPNext-MCP</h3>
+      <p>
+        <a href="https://github.com/Cec1c/ERPNext-MCP"><b>Cec1c/ERPNext-MCP</b></a>
+        connects AI agents to ERPNext / Frappe through native HTTP APIs, document and report queries, and manufacturing and stock tracing. Safe Mode is enabled by default; sensitive operations use approved, frozen plans, while large requests and responses remain available in full.
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/ERPNext-MCP"><img src="https://img.shields.io/static/v1?label=Python&amp;message=MCP+Server&amp;color=9c55d4&amp;style=flat-square" alt="Python: MCP Server" /></a>
+        <a href="https://github.com/Cec1c/ERPNext-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/ERPNext-MCP?style=flat-square&amp;color=d8c66b" alt="ERPNext MCP stars" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>PVF-MCP</h3>
+      <p>
+        <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a>
+        is a Go MCP server for pvfUtility, exposing 26 tools for PVF search, structured editing, serialization, and saving. It can read the editor’s current document and selected files, and connects to AI clients over stdio.
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/PVF-MCP/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/PVF-MCP?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=d4772e" alt="PVF-MCP release" /></a>
+        <a href="https://github.com/Cec1c/PVF-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/PVF-MCP?style=flat-square&amp;color=d8c66b" alt="PVF-MCP stars" /></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>CPAMP Theme Studio</h3>
+      <p>
+        <a href="https://github.com/Cec1c/cpamp-theme-studio"><b>Cec1c/cpamp-theme-studio</b></a>
+        is a standalone theme studio plugin for CPA Manager Plus, available through the Plugin Store. It provides preset palettes, custom accent colors, light/dark modes, fonts, radii, and layout controls, with live preview and persistent browser preferences.
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/cpamp-theme-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/cpamp-theme-studio?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="CPAMP Theme Studio release" /></a>
+        <a href="https://github.com/Cec1c/cpamp-theme-studio/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/cpamp-theme-studio?style=flat-square&amp;color=d8c66b" alt="CPAMP Theme Studio stars" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -46,12 +94,10 @@
         <a href="https://github.com/Cec1c/Mansus"><b>Cec1c/Mansus</b></a>
         is an Astro blog template based on Firefly, with aspect-based ink mixing, Markdown / MDX, full-text search, and quick GitHub Pages deployment.
       </p>
+      <p><a href="https://mansus.cc">Live demo</a></p>
       <p>
-        <a href="https://mansus.cc">Live demo</a>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Astro-blog%20template-d4772e?style=flat-square&logo=astro&logoColor=white" alt="Astro blog template" />
-        <img src="https://img.shields.io/badge/deploy-GitHub%20Pages-9c55d4?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
+        <a href="https://github.com/Cec1c/Mansus"><img src="https://img.shields.io/static/v1?label=Astro&amp;message=blog+template&amp;color=d4772e&amp;style=flat-square" alt="Astro: blog template" /></a>
+        <a href="https://github.com/Cec1c/Mansus/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Mansus?style=flat-square&amp;color=d8c66b" alt="Mansus stars" /></a>
       </p>
     </td>
   </tr>
@@ -64,28 +110,27 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Claude Code Chinese Localization</h3>
+      <h3>CPA-Manager-Plus</h3>
       <p>
-        Contributor to <a href="https://github.com/taekchef/claude-code-zh-cn"><b>taekchef/claude-code-zh-cn</b></a>.
+        <a href="https://github.com/seakee/CPA-Manager-Plus"><b>seakee/CPA-Manager-Plus</b></a>
+        contribution: fixed an authentication privilege-escalation issue in the Manager Server plugin resource proxy.
       </p>
+      <p><a href="https://github.com/seakee/CPA-Manager-Plus/pull/463">Merged PR #463</a>: use the saved management key only after admin authentication, preserve caller-provided authorization, and add regression coverage.</p>
       <p>
-        <a href="https://github.com/taekchef/claude-code-zh-cn/pull/11">Merged PR #11</a>:
-        Windows PowerShell installation, hooks, launcher support, and UI translation improvements.
-      </p>
-      <p>
-        <img src="https://img.shields.io/github/stars/taekchef/claude-code-zh-cn?style=flat-square&color=9c55d4" alt="Claude Code Chinese localization stars" />
-        <img src="https://img.shields.io/badge/merged-PR%20%2311-d8c66b?style=flat-square" alt="Merged PR 11" />
+        <a href="https://github.com/seakee/CPA-Manager-Plus/stargazers"><img src="https://img.shields.io/github/stars/seakee/CPA-Manager-Plus?style=flat-square&amp;color=9c55d4" alt="CPA-Manager-Plus stars" /></a>
+        <a href="https://github.com/seakee/CPA-Manager-Plus/pull/463"><img src="https://img.shields.io/badge/merged-PR%20%23463-d8c66b?style=flat-square" alt="Merged PR 463" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>PVF-MCP</h3>
+      <h3>Claude Code Chinese Localization</h3>
       <p>
-        <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a>
-        is a Go MCP server for pvfUtility, exposing 26 tools for PVF search, structured editing, serialization, and saving.
+        <a href="https://github.com/taekchef/claude-code-zh-cn"><b>taekchef/claude-code-zh-cn</b></a>
+        contribution: Windows platform support and UI translation improvements.
       </p>
+      <p><a href="https://github.com/taekchef/claude-code-zh-cn/pull/11">Merged PR #11</a>: Windows PowerShell installation, hooks, launcher support, and UI translation improvements.</p>
       <p>
-        <img src="https://img.shields.io/github/v/release/Cec1c/PVF-MCP?display_name=tag&style=flat-square&color=d4772e" alt="PVF-MCP release" />
-        <img src="https://img.shields.io/badge/Go-MCP%20Server-9c55d4?style=flat-square&logo=go&logoColor=white" alt="Go MCP server" />
+        <a href="https://github.com/taekchef/claude-code-zh-cn/stargazers"><img src="https://img.shields.io/github/stars/taekchef/claude-code-zh-cn?style=flat-square&amp;color=9c55d4" alt="Claude Code Chinese localization stars" /></a>
+        <a href="https://github.com/taekchef/claude-code-zh-cn/pull/11"><img src="https://img.shields.io/badge/merged-PR%20%2311-d8c66b?style=flat-square" alt="Merged PR 11" /></a>
       </p>
     </td>
   </tr>
@@ -98,27 +143,28 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Aletheia Lens</h3>
-      <p>GUI batch image processing tool with packaged CPU / CUDA 12 builds, folder and archive inputs, preserved directory structures, and automated mask detection.</p>
-      <p><a href="https://github.com/Cec1c/Aletheia-Lens">Repository</a></p>
+      <h3>Survey</h3>
       <p>
-        <img src="https://img.shields.io/github/v/release/Cec1c/Aletheia-Lens?display_name=tag&style=flat-square&color=9c55d4" alt="Aletheia Lens release" />
-        <img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&color=d8c66b" alt="Aletheia Lens stars" />
+        <a href="https://github.com/Cec1c/Survey"><b>Cec1c/Survey</b></a>
+        is an LLM-powered reverse engineering assistant for IDA Pro with GUI and CLI entry points. Its MCP Bridge provides decompilation, cross-references, and memory data, plus tools for renaming, annotation, and type cleanup.
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/Survey"><img src="https://img.shields.io/static/v1?label=Python&amp;message=IDA+Pro&amp;color=d4772e&amp;style=flat-square" alt="Python: IDA Pro" /></a>
+        <a href="https://github.com/Cec1c/Survey/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Survey?style=flat-square&amp;color=d8c66b" alt="Survey stars" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>Survey</h3>
-      <p>LLM-powered reverse engineering assistant with GUI and CLI surfaces plus an MCP bridge to 50+ IDA Pro tools.</p>
-      <p><a href="https://github.com/Cec1c/Survey">Repository</a></p>
+      <h3>DeepCreamPy Batch Processor</h3>
       <p>
-        <img src="https://img.shields.io/github/languages/top/Cec1c/Survey?style=flat-square&color=d8c66b" alt="Survey top language" />
-        <img src="https://img.shields.io/badge/Lantern-reverse%20engineering-d8c66b?style=flat-square" alt="Lantern reverse engineering" />
+        <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor"><b>Cec1c/DeepCreamPy-Batch-Processor</b></a>
+        is an earlier batch image restoration script based on DeepCreamPy FastAPI, with support for preserved directory structures and transparency. It is no longer maintained; development continues in <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>.
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/DeepCreamPy-Batch-Processor?style=flat-square&amp;color=d8c66b" alt="DeepCreamPy Batch Processor stars" /></a>
       </p>
     </td>
   </tr>
 </table>
-
-Earlier project: <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor">DeepCreamPy Batch Processor</a> (superseded by Aletheia Lens and no longer maintained).
 
 ---
 
