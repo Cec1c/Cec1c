@@ -142,6 +142,41 @@ others:
       <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>.
     badge: stars
 
+# 语言判定：GitHub 按「代码字节数」算主语言，所以翻译文件、模板资源、标记文档都可能
+# 盖过真正的代码。下面两个名单分别管两件事。
+#
+# language_ignore：卡片上不显示这些语言。某仓库主语言被忽略时会顺延到下一个。
+language_ignore:
+  # 本地化的翻译文件（codex-cli-ultra 的 .ftl），不是编程语言
+  - Fluent
+
+# toolbelt_*：底部「工具栈」，统计范围是所有仓库（非 fork、非归档、未被 ignore）。
+#
+#   toolbelt_extra   钉住的语言：永远上榜、排在最前、按这里写的顺序。用「语言名 + 占比」
+#                    的徽章。留空则完全按字节占比自动排。
+#   toolbelt_top     一共显示几个。钉住的占用名额，剩下的由占比最高的语言补齐。
+#   toolbelt_ignore  统计时剔除的语言。
+#
+# 钉住的意义：字节占比会把实际在用的语言挤出前排——比如 Rust 和 PowerShell 的仓库小，
+# 占比进不了前 6，但它们确实是你技术栈的一部分。
+toolbelt_top: 6
+toolbelt_extra:
+  - Python
+  - Go
+  - JavaScript
+  - Rust
+  - Astro
+  - PowerShell
+toolbelt_ignore:
+  - Fluent
+  # 以下按需启用：模板/框架自带的资源文件，通常不代表自己写的代码
+  # - CSS
+  # - Svelte
+  # - Stylus
+  # - HTML
+  # - Markdown
+  # - Roff
+
 ignore:
   - Cec1c/Cec1c
   - Cec1c/ServerS5A3
