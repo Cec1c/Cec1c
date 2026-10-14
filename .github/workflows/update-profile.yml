@@ -1,0 +1,52 @@
+name: Update Profile README
+
+# 每天北京时间 06:00 刷新主页的「近期项目 / 参与和工具 / 其他项目」三个区块。
+# 数据没变化时不会产生提交。
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # 提交 README
+      issues: write # 开「发现未收录仓库」提醒
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet pyyaml
+
+      - name: Refresh README sections
+        env:
+          # 默认 token 足够读仓库元数据、提交 README、开 Issue
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 读「我的贡献图」需要用户级凭证；缺失时贡献区块保持原样并给出警告
+          PROFILE_PAT: ${{ secrets.PROFILE_PAT }}
+        run: python scripts/update_profile.py
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet; then
+            echo "数据无变化，跳过提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.en.md
+          git commit -m "chore: 自动刷新主页项目与贡献数据"
+          git push

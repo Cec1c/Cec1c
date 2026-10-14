@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 更新脚本的 dry-run 预览产物
+readme.preview.*.md

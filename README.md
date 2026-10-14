@@ -27,6 +27,7 @@
 
 ## 近期项目
 
+<!-- PROFILE:FEATURED:START -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -103,11 +104,13 @@
     </td>
   </tr>
 </table>
+<!-- PROFILE:FEATURED:END -->
 
 ---
 
 ## 参与和工具
 
+<!-- PROFILE:CONTRIB:START -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -135,14 +138,41 @@
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>pebrel</h3>
+      <p>
+        <a href="https://github.com/Kuddev/pebrel"><b>Kuddev/pebrel</b></a>
+      </p>
+      <p><a href="https://github.com/Kuddev/pebrel/pull/307">Merged PR #307</a>：feat(terminal): enable smooth cursor motion from Appearance settings</p>
+      <p><a href="https://github.com/Kuddev/pebrel/pull/293">Merged PR #293</a>：feat(terminal): add tested cursor motion and preference contracts</p>
+      <p>
+        <a href="https://github.com/Kuddev/pebrel/stargazers"><img src="https://img.shields.io/github/stars/Kuddev/pebrel?style=flat-square&amp;color=9c55d4" alt="pebrel stars" /></a>
+        <a href="https://github.com/Kuddev/pebrel/pull/307"><img src="https://img.shields.io/badge/merged-PR%20%23307-d8c66b?style=flat-square" alt="Merged PR 307" /></a>
+        <a href="https://github.com/Kuddev/pebrel/pull/293"><img src="https://img.shields.io/badge/merged-PR%20%23293-d8c66b?style=flat-square" alt="Merged PR 293" /></a>
+      </p>
+    </td>
+  </tr>
 </table>
+<!-- PROFILE:CONTRIB:END -->
 
 ---
 
 ## 其他项目
 
+<!-- PROFILE:OTHERS:START -->
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <h3>I Ain't No Robot</h3>
+      <p>
+        <a href="https://github.com/Cec1c/iaintnorobot"><b>Cec1c/iaintnorobot</b></a>
+        面向 AstrBot 的多群自然插话插件，目标是让机器人少说、短说、偶尔接一句。支持多群 WebUI 配置、SQLite 轻量记忆、低频触发与冷却、话题优先判断、随机延迟和人味短句过滤，不依赖任何外部服务。
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/iaintnorobot/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/iaintnorobot?style=flat-square&amp;color=d8c66b" alt="I Ain&#x27;t No Robot stars" /></a>
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3>Survey</h3>
       <p>
@@ -154,6 +184,8 @@
         <a href="https://github.com/Cec1c/Survey/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Survey?style=flat-square&amp;color=d8c66b" alt="Survey stars" /></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>DeepCreamPy Batch Processor</h3>
       <p>
@@ -166,6 +198,7 @@
     </td>
   </tr>
 </table>
+<!-- PROFILE:OTHERS:END -->
 
 ---
 

@@ -26,6 +26,7 @@
 
 ## Current Projects
 
+<!-- PROFILE-EN:FEATURED:START -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -102,11 +103,13 @@
     </td>
   </tr>
 </table>
+<!-- PROFILE-EN:FEATURED:END -->
 
 ---
 
 ## Contributions & Tools
 
+<!-- PROFILE-EN:CONTRIB:START -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -134,14 +137,41 @@
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>pebrel</h3>
+      <p>
+        <a href="https://github.com/Kuddev/pebrel"><b>Kuddev/pebrel</b></a>
+      </p>
+      <p><a href="https://github.com/Kuddev/pebrel/pull/307">Merged PR #307</a>: feat(terminal): enable smooth cursor motion from Appearance settings</p>
+      <p><a href="https://github.com/Kuddev/pebrel/pull/293">Merged PR #293</a>: feat(terminal): add tested cursor motion and preference contracts</p>
+      <p>
+        <a href="https://github.com/Kuddev/pebrel/stargazers"><img src="https://img.shields.io/github/stars/Kuddev/pebrel?style=flat-square&amp;color=9c55d4" alt="pebrel stars" /></a>
+        <a href="https://github.com/Kuddev/pebrel/pull/307"><img src="https://img.shields.io/badge/merged-PR%20%23307-d8c66b?style=flat-square" alt="Merged PR 307" /></a>
+        <a href="https://github.com/Kuddev/pebrel/pull/293"><img src="https://img.shields.io/badge/merged-PR%20%23293-d8c66b?style=flat-square" alt="Merged PR 293" /></a>
+      </p>
+    </td>
+  </tr>
 </table>
+<!-- PROFILE-EN:CONTRIB:END -->
 
 ---
 
 ## Other Projects
 
+<!-- PROFILE-EN:OTHERS:START -->
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <h3>I Ain't No Robot</h3>
+      <p>
+        <a href="https://github.com/Cec1c/iaintnorobot"><b>Cec1c/iaintnorobot</b></a>
+        is a multi-group chat interjection plugin for AstrBot whose goal is a bot that speaks less, shorter, and occasionally, like an ordinary group member. It configures groups through a WebUI, keeps lightweight SQLite memory, and adds cooldowns, topic-first triggering, randomized delays, and human-sounding short replies without any external service.
+      </p>
+      <p>
+        <a href="https://github.com/Cec1c/iaintnorobot/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/iaintnorobot?style=flat-square&amp;color=d8c66b" alt="I Ain&#x27;t No Robot stars" /></a>
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3>Survey</h3>
       <p>
@@ -153,6 +183,8 @@
         <a href="https://github.com/Cec1c/Survey/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Survey?style=flat-square&amp;color=d8c66b" alt="Survey stars" /></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>DeepCreamPy Batch Processor</h3>
       <p>
@@ -165,6 +197,7 @@
     </td>
   </tr>
 </table>
+<!-- PROFILE-EN:OTHERS:END -->
 
 ---
 
