@@ -370,7 +370,12 @@ def main() -> int:
     # 用户级 token：只有它能读「我的贡献图」。Actions 默认 token 读不到，必须用 PAT。
     viewer_token = os.environ.get("PROFILE_PAT") or os.environ.get("GITHUB_TOKEN") or ""
 
-    viewer = rest("/user", token)["login"]
+    # 取用户名：Actions 里直接读环境变量，不发请求。
+    # GITHUB_TOKEN 是集成身份，访问不了 /user 这个用户级接口（会 403 Resource not accessible
+    # by integration），所以不能靠它；本地运行才回退到 API 查询。
+    viewer = os.environ.get("GITHUB_REPOSITORY_OWNER") or ""
+    if not viewer:
+        viewer = rest("/user", viewer_token)["login"]
     print(f"以 {viewer} 身份运行（{'dry-run' if args.dry_run else '写入模式'}，"
           f"贡献图凭证：{'PAT' if os.environ.get('PROFILE_PAT') else '默认 token'}）")
 
