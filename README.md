@@ -37,6 +37,7 @@
         为 Codex CLI 提供外置 Fluent FTL 语言包、Windows / Linux / macOS 安装管理，以及可选的主题与状态栏扩展。当前参考语言包为简体中文，可通过 CCU Manager 管理安装和更新。
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3AJavaScript&amp;type=repositories"><img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square" alt="JavaScript" /></a>
         <a href="https://github.com/Cec1c/codex-cli-ultra/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/codex-cli-ultra?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Codex CLI Ultra release" /></a>
         <a href="https://github.com/Cec1c/codex-cli-ultra/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/codex-cli-ultra?style=flat-square&amp;color=d8c66b" alt="Codex CLI Ultra stars" /></a>
       </p>
@@ -49,6 +50,7 @@
       </p>
       <p>实验性手动标注修复已加入，目前仅支持静态单图片和模式 I。</p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/Aletheia-Lens/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/Aletheia-Lens?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Aletheia Lens release" /></a>
         <a href="https://github.com/Cec1c/Aletheia-Lens/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&amp;color=d8c66b" alt="Aletheia Lens stars" /></a>
       </p>
@@ -62,6 +64,7 @@
         面向 ERPNext / Frappe 的 MCP 服务，支持原生 HTTP API、文档与报表查询，以及制造和库存流程追踪。默认启用 Safe Mode，敏感操作按确认后的固定计划执行，大型请求和响应可完整保存、分段读取。
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/ERPNext-MCP"><img src="https://img.shields.io/static/v1?label=Python&amp;message=MCP+Server&amp;color=9c55d4&amp;style=flat-square" alt="Python: MCP Server" /></a>
         <a href="https://github.com/Cec1c/ERPNext-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/ERPNext-MCP?style=flat-square&amp;color=d8c66b" alt="ERPNext MCP stars" /></a>
       </p>
@@ -73,6 +76,7 @@
         是面向 pvfUtility 的 Go MCP Server，以 26 个工具覆盖 PVF 搜索、结构化编辑、序列化和保存流程。支持读取编辑器当前文档与选中文件，通过 stdio 接入 AI 客户端。
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
         <a href="https://github.com/Cec1c/PVF-MCP/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/PVF-MCP?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=d4772e" alt="PVF-MCP release" /></a>
         <a href="https://github.com/Cec1c/PVF-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/PVF-MCP?style=flat-square&amp;color=d8c66b" alt="PVF-MCP stars" /></a>
       </p>
@@ -86,6 +90,7 @@
         为 CPA Manager Plus 提供独立的主题工作室插件，可通过插件商店安装。支持预设配色、自定义强调色、明暗模式、字体、圆角与布局调整，实时预览并在浏览器中保存设置。
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
         <a href="https://github.com/Cec1c/cpamp-theme-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/cpamp-theme-studio?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="CPAMP Theme Studio release" /></a>
         <a href="https://github.com/Cec1c/cpamp-theme-studio/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/cpamp-theme-studio?style=flat-square&amp;color=d8c66b" alt="CPAMP Theme Studio stars" /></a>
       </p>
@@ -98,6 +103,7 @@
       </p>
       <p><a href="https://mansus.cc">在线示范</a></p>
       <p>
+        <a href="https://github.com/search?q=language%3AAstro&amp;type=repositories"><img src="https://img.shields.io/badge/Astro-ff5a03?style=flat-square" alt="Astro" /></a>
         <a href="https://github.com/Cec1c/Mansus"><img src="https://img.shields.io/static/v1?label=Astro&amp;message=blog+template&amp;color=d4772e&amp;style=flat-square" alt="Astro: blog template" /></a>
         <a href="https://github.com/Cec1c/Mansus/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Mansus?style=flat-square&amp;color=d8c66b" alt="Mansus stars" /></a>
       </p>
@@ -170,6 +176,7 @@
         面向 AstrBot 的多群自然插话插件，目标是让机器人少说、短说、偶尔接一句。支持多群 WebUI 配置、SQLite 轻量记忆、低频触发与冷却、话题优先判断、随机延迟和人味短句过滤，不依赖任何外部服务。
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/iaintnorobot/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/iaintnorobot?style=flat-square&amp;color=d8c66b" alt="I Ain&#x27;t No Robot stars" /></a>
       </p>
     </td>
@@ -180,6 +187,7 @@
         面向 IDA Pro 的 LLM 逆向分析助手，提供 GUI + CLI 双入口，通过 MCP Bridge 读取反编译、交叉引用和内存数据，辅助重命名、注释与类型整理。
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/Survey"><img src="https://img.shields.io/static/v1?label=Python&amp;message=IDA+Pro&amp;color=d4772e&amp;style=flat-square" alt="Python: IDA Pro" /></a>
         <a href="https://github.com/Cec1c/Survey/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Survey?style=flat-square&amp;color=d8c66b" alt="Survey stars" /></a>
       </p>
@@ -193,6 +201,7 @@
         早期的批量图像修复脚本，基于 DeepCreamPy FastAPI，支持目录结构与透明图层保留。已停止更新，后续开发转至 <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>。
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/DeepCreamPy-Batch-Processor?style=flat-square&amp;color=d8c66b" alt="DeepCreamPy Batch Processor stars" /></a>
       </p>
     </td>
@@ -204,14 +213,16 @@
 
 ## 工具栈
 
+<!-- PROFILE:TOOLBELT:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-0b0a10?style=flat-square&logo=python&logoColor=d8c66b&labelColor=191222" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-0b0a10?style=flat-square&logo=go&logoColor=95c8d2&labelColor=191222" alt="Go" />
-  <img src="https://img.shields.io/badge/JavaScript-0b0a10?style=flat-square&logo=javascript&logoColor=d8c66b&labelColor=191222" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Rust-0b0a10?style=flat-square&logo=rust&logoColor=d4772e&labelColor=191222" alt="Rust" />
-  <img src="https://img.shields.io/badge/Astro-0b0a10?style=flat-square&logo=astro&logoColor=d4772e&labelColor=191222" alt="Astro" />
-  <img src="https://img.shields.io/badge/PowerShell-0b0a10?style=flat-square&logo=powershell&logoColor=9c55d4&labelColor=191222" alt="PowerShell" />
+  <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
+  <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
+  <a href="https://github.com/search?q=language%3AJavaScript&amp;type=repositories"><img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square" alt="JavaScript" /></a>
+  <a href="https://github.com/search?q=language%3ARust&amp;type=repositories"><img src="https://img.shields.io/badge/Rust-dea584?style=flat-square" alt="Rust" /></a>
+  <a href="https://github.com/search?q=language%3AAstro&amp;type=repositories"><img src="https://img.shields.io/badge/Astro-ff5a03?style=flat-square" alt="Astro" /></a>
+  <a href="https://github.com/search?q=language%3APowerShell&amp;type=repositories"><img src="https://img.shields.io/badge/PowerShell-012456?style=flat-square" alt="PowerShell" /></a>
 </p>
+<!-- PROFILE:TOOLBELT:END -->
 
 ---
 

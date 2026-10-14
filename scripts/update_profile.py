@@ -29,9 +29,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from profile_render import (  # noqa: E402
     DEFAULT_CONTRIB_STAR_COLOR,
     DEFAULT_STAR_COLOR,
+    aggregate_languages,
     build_card,
     build_contribution_card,
     build_table,
+    build_toolbelt,
 )
 
 API = "https://api.github.com"
@@ -45,7 +47,7 @@ SEARCH_INTERVAL = 2.0  # search API 限流较严，逐个仓库串行并留间�
 RETRIES = 3  # GitHub 的 search 接口偶发 5xx，重试几次再放弃
 
 # 受管区块 -> README 里的标记前缀
-SECTIONS = ("FEATURED", "CONTRIB", "OTHERS")
+SECTIONS = ("FEATURED", "CONTRIB", "OTHERS", "TOOLBELT")
 
 
 class FetchError(RuntimeError):
@@ -108,8 +110,27 @@ def graphql(query: str, token: str) -> dict:
 # 抓取
 # --------------------------------------------------------------------------- #
 
-def fetch_repo_data(repos: list[str], token: str) -> dict[str, dict]:
-    """批量取 latestRelease / stars。一次 GraphQL 请求覆盖最多 BATCH 个仓库。"""
+LANG_FIELDS = (
+    " languages(first: 12, orderBy: {field: SIZE, direction: DESC})"
+    " { edges { size node { name color } } }"
+)
+
+
+def _languages_of(node: dict) -> list[dict]:
+    return [
+        {"name": e["node"]["name"], "color": e["node"].get("color"), "size": e.get("size") or 0}
+        for e in (node.get("languages") or {}).get("edges", [])
+    ]
+
+
+def fetch_repo_data(repos: list[str], token: str, lang_ignore: set[str] | None = None
+                    ) -> dict[str, dict]:
+    """批量取 latestRelease / stars / 语言构成。一次请求覆盖最多 BATCH 个仓库。
+
+    lang_ignore 里的语言不算「主语言」——比如 .ftl 翻译文件不该让一张卡片显得像是
+    用 Fluent 写的一样。它只影响卡片判定，与底部工具栈的统计相互独立。
+    """
+    lang_ignore = lang_ignore or set()
     out: dict[str, dict] = {}
     for i in range(0, len(repos), BATCH):
         chunk = repos[i : i + BATCH]
@@ -119,7 +140,8 @@ def fetch_repo_data(repos: list[str], token: str) -> dict[str, dict]:
             blocks.append(
                 f'  r{idx}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) {{'
                 " nameWithOwner stargazerCount"
-                " latestRelease { tagName isPrerelease isDraft } }"
+                " latestRelease { tagName isPrerelease isDraft }"
+                + LANG_FIELDS + " }"
             )
         data = graphql("{\n" + "\n".join(blocks) + "\n}", token)
         for idx, full in enumerate(chunk):
@@ -130,7 +152,35 @@ def fetch_repo_data(repos: list[str], token: str) -> dict[str, dict]:
             tag = release.get("tagName")
             if release.get("isDraft"):
                 tag = None
-            out[full] = {"stars": node.get("stargazerCount", 0), "tag": tag}
+            out[full] = {
+                "stars": node.get("stargazerCount", 0),
+                "tag": tag,
+                "languages": [l for l in _languages_of(node) if l["name"] not in lang_ignore],
+            }
+    return out
+
+
+def fetch_languages_only(repos: list[str], token: str) -> dict[str, list[dict]]:
+    """只取语言构成，用于底部工具栈的统计。
+
+    与 fetch_repo_data 分开是因为工具栈要统计**所有**仓库，而不只是白名单里的；
+    其中可能有已删除或改名、查不到的仓库，跳过即可，不影响其余统计。
+    """
+    out: dict[str, list[dict]] = {}
+    for i in range(0, len(repos), BATCH):
+        chunk = repos[i : i + BATCH]
+        blocks = []
+        for idx, full in enumerate(chunk):
+            owner, name = full.split("/", 1)
+            blocks.append(
+                f'  r{idx}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) {{'
+                + LANG_FIELDS + " }"
+            )
+        data = graphql("{\n" + "\n".join(blocks) + "\n}", token)
+        for idx, full in enumerate(chunk):
+            node = data.get(f"r{idx}")
+            if node:
+                out[full] = _languages_of(node)
     return out
 
 
@@ -282,7 +332,16 @@ def collect_contrib_entries(
     return entries
 
 
-def detect_new_repos(cfg: dict, contrib_cfg: dict, viewer: str, token: str) -> list[dict]:
+def toolbelt_repos(cfg: dict, owned: list[dict]) -> list[str]:
+    """参与工具栈统计的仓库：自己名下、非 fork、非归档、且没被 ignore。"""
+    ignores = set(cfg.get("ignore") or [])
+    return [
+        r["full_name"] for r in owned
+        if not r.get("fork") and not r.get("archived") and r["full_name"] not in ignores
+    ]
+
+
+def detect_new_repos(cfg: dict, contrib_cfg: dict, owned: list[dict]) -> list[dict]:
     """找出「建仓已满 7 天、非 fork、未白名单、未忽略、未提醒过」的新仓库。"""
     ignores = set(cfg.get("ignore") or [])
     tracked = {p["repo"] for key in ("featured", "others") for p in (cfg.get(key) or [])}
@@ -290,7 +349,7 @@ def detect_new_repos(cfg: dict, contrib_cfg: dict, viewer: str, token: str) -> l
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=NEW_REPO_GRACE_DAYS)
     candidates = []
-    for repo in fetch_owner_repos(viewer, token):
+    for repo in owned:
         full = repo["full_name"]
         if repo.get("fork") or repo.get("archived"):
             continue
@@ -382,7 +441,9 @@ def main() -> int:
     cfg = load_yaml(config_dir / "projects.yml")
     contrib_cfg = load_yaml(config_dir / "contributions.yml")
     data = fetch_repo_data(
-        [p["repo"] for key in ("featured", "others") for p in (cfg.get(key) or [])], token
+        [p["repo"] for key in ("featured", "others") for p in (cfg.get(key) or [])],
+        token,
+        set(cfg.get("language_ignore") or []),
     )
     for repo, info in data.items():
         print(f"  {repo}: ★{info['stars']} tag={info['tag']}")
@@ -390,6 +451,7 @@ def main() -> int:
     readme_zh, nl_zh = read_text_preserving_newline(config_dir / "README.md")
     readme_en, nl_en = read_text_preserving_newline(config_dir / "README.en.md")
     failed = False  # 有任何区块降级则最终以非零码退出，让 CI 能察觉
+    owned: list[dict] = []  # 自己的仓库列表，工具栈与新仓库扫描共用
 
     # --- 项目区块 ---
     for key in ("FEATURED", "OTHERS"):
@@ -399,6 +461,26 @@ def main() -> int:
         readme_en, _ = replace_section(
             readme_en, f"PROFILE-EN:{key}", build_projects_section(cfg, data, "en", key.lower())
         )
+
+    # --- 底部工具栈：按所有仓库的语言字节数汇总 ---
+    try:
+        owned = fetch_owner_repos(viewer, token)
+        langs = fetch_languages_only(toolbelt_repos(cfg, owned), token)
+        # 多取一些候选，好让 toolbelt_extra 里钉住的语言也能查到真实占比与配色
+        ranked = aggregate_languages(
+            langs, set(cfg.get("toolbelt_ignore") or []), max(int(cfg.get("toolbelt_top", 6)), 30)
+        )
+        print("  工具栈：" + "、".join(f"{l['name']} {l['percent']:.1f}%" for l in ranked[:8]))
+        pinned = list(cfg.get("toolbelt_extra") or [])
+        if pinned:
+            print("  钉住：" + "、".join(pinned))
+        body = build_toolbelt(ranked, pinned, int(cfg.get("toolbelt_top", 6)))
+        if body:
+            readme_zh, _ = replace_section(readme_zh, "PROFILE:TOOLBELT", body)
+            readme_en, _ = replace_section(readme_en, "PROFILE-EN:TOOLBELT", body)
+    except FetchError as exc:
+        print(f"!! 工具栈抓取失败，保留原样：{exc}", file=sys.stderr, flush=True)
+        failed = True
 
     # --- 贡献区块 ---
     if args.skip_contrib:
@@ -432,7 +514,9 @@ def main() -> int:
     # --- 新仓库提醒 ---
     if not args.skip_issues:
         try:
-            new_repos = detect_new_repos(cfg, contrib_cfg, viewer, token)
+            if not owned:
+                owned = fetch_owner_repos(viewer, token)
+            new_repos = detect_new_repos(cfg, contrib_cfg, owned)
             if new_repos:
                 open_issue(viewer, new_repos, token, args.dry_run)
             else:

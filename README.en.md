@@ -36,6 +36,7 @@
         adds external Fluent FTL language packs, Windows / Linux / macOS installation management, and optional themes and status-line extensions to Codex CLI. Simplified Chinese is the reference language pack; CCU Manager handles installation and updates.
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3AJavaScript&amp;type=repositories"><img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square" alt="JavaScript" /></a>
         <a href="https://github.com/Cec1c/codex-cli-ultra/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/codex-cli-ultra?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Codex CLI Ultra release" /></a>
         <a href="https://github.com/Cec1c/codex-cli-ultra/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/codex-cli-ultra?style=flat-square&amp;color=d8c66b" alt="Codex CLI Ultra stars" /></a>
       </p>
@@ -48,6 +49,7 @@
       </p>
       <p>Experimental manual mask editing is available for single static images in mode I.</p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/Aletheia-Lens/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/Aletheia-Lens?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="Aletheia Lens release" /></a>
         <a href="https://github.com/Cec1c/Aletheia-Lens/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Aletheia-Lens?style=flat-square&amp;color=d8c66b" alt="Aletheia Lens stars" /></a>
       </p>
@@ -61,6 +63,7 @@
         connects AI agents to ERPNext / Frappe through native HTTP APIs, document and report queries, and manufacturing and stock tracing. Safe Mode is enabled by default; sensitive operations use approved, frozen plans, while large requests and responses remain available in full.
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/ERPNext-MCP"><img src="https://img.shields.io/static/v1?label=Python&amp;message=MCP+Server&amp;color=9c55d4&amp;style=flat-square" alt="Python: MCP Server" /></a>
         <a href="https://github.com/Cec1c/ERPNext-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/ERPNext-MCP?style=flat-square&amp;color=d8c66b" alt="ERPNext MCP stars" /></a>
       </p>
@@ -72,6 +75,7 @@
         is a Go MCP server for pvfUtility, exposing 26 tools for PVF search, structured editing, serialization, and saving. It can read the editor’s current document and selected files, and connects to AI clients over stdio.
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
         <a href="https://github.com/Cec1c/PVF-MCP/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/PVF-MCP?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=d4772e" alt="PVF-MCP release" /></a>
         <a href="https://github.com/Cec1c/PVF-MCP/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/PVF-MCP?style=flat-square&amp;color=d8c66b" alt="PVF-MCP stars" /></a>
       </p>
@@ -85,6 +89,7 @@
         is a standalone theme studio plugin for CPA Manager Plus, available through the Plugin Store. It provides preset palettes, custom accent colors, light/dark modes, fonts, radii, and layout controls, with live preview and persistent browser preferences.
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
         <a href="https://github.com/Cec1c/cpamp-theme-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Cec1c/cpamp-theme-studio?sort=date&amp;display_name=tag&amp;style=flat-square&amp;color=9c55d4" alt="CPAMP Theme Studio release" /></a>
         <a href="https://github.com/Cec1c/cpamp-theme-studio/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/cpamp-theme-studio?style=flat-square&amp;color=d8c66b" alt="CPAMP Theme Studio stars" /></a>
       </p>
@@ -97,6 +102,7 @@
       </p>
       <p><a href="https://mansus.cc">Live demo</a></p>
       <p>
+        <a href="https://github.com/search?q=language%3AAstro&amp;type=repositories"><img src="https://img.shields.io/badge/Astro-ff5a03?style=flat-square" alt="Astro" /></a>
         <a href="https://github.com/Cec1c/Mansus"><img src="https://img.shields.io/static/v1?label=Astro&amp;message=blog+template&amp;color=d4772e&amp;style=flat-square" alt="Astro: blog template" /></a>
         <a href="https://github.com/Cec1c/Mansus/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Mansus?style=flat-square&amp;color=d8c66b" alt="Mansus stars" /></a>
       </p>
@@ -169,6 +175,7 @@
         is a multi-group chat interjection plugin for AstrBot whose goal is a bot that speaks less, shorter, and occasionally, like an ordinary group member. It configures groups through a WebUI, keeps lightweight SQLite memory, and adds cooldowns, topic-first triggering, randomized delays, and human-sounding short replies without any external service.
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/iaintnorobot/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/iaintnorobot?style=flat-square&amp;color=d8c66b" alt="I Ain&#x27;t No Robot stars" /></a>
       </p>
     </td>
@@ -179,6 +186,7 @@
         is an LLM-powered reverse engineering assistant for IDA Pro with GUI and CLI entry points. Its MCP Bridge provides decompilation, cross-references, and memory data, plus tools for renaming, annotation, and type cleanup.
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/Survey"><img src="https://img.shields.io/static/v1?label=Python&amp;message=IDA+Pro&amp;color=d4772e&amp;style=flat-square" alt="Python: IDA Pro" /></a>
         <a href="https://github.com/Cec1c/Survey/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/Survey?style=flat-square&amp;color=d8c66b" alt="Survey stars" /></a>
       </p>
@@ -192,6 +200,7 @@
         is an earlier batch image restoration script based on DeepCreamPy FastAPI, with support for preserved directory structures and transparency. It is no longer maintained; development continues in <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>.
       </p>
       <p>
+        <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
         <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor/stargazers"><img src="https://img.shields.io/github/stars/Cec1c/DeepCreamPy-Batch-Processor?style=flat-square&amp;color=d8c66b" alt="DeepCreamPy Batch Processor stars" /></a>
       </p>
     </td>
@@ -203,14 +212,16 @@
 
 ## Toolbelt
 
+<!-- PROFILE-EN:TOOLBELT:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-0b0a10?style=flat-square&logo=python&logoColor=d8c66b&labelColor=191222" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-0b0a10?style=flat-square&logo=go&logoColor=95c8d2&labelColor=191222" alt="Go" />
-  <img src="https://img.shields.io/badge/JavaScript-0b0a10?style=flat-square&logo=javascript&logoColor=d8c66b&labelColor=191222" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Rust-0b0a10?style=flat-square&logo=rust&logoColor=d4772e&labelColor=191222" alt="Rust" />
-  <img src="https://img.shields.io/badge/Astro-0b0a10?style=flat-square&logo=astro&logoColor=d4772e&labelColor=191222" alt="Astro" />
-  <img src="https://img.shields.io/badge/PowerShell-0b0a10?style=flat-square&logo=powershell&logoColor=9c55d4&labelColor=191222" alt="PowerShell" />
+  <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
+  <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
+  <a href="https://github.com/search?q=language%3AJavaScript&amp;type=repositories"><img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square" alt="JavaScript" /></a>
+  <a href="https://github.com/search?q=language%3ARust&amp;type=repositories"><img src="https://img.shields.io/badge/Rust-dea584?style=flat-square" alt="Rust" /></a>
+  <a href="https://github.com/search?q=language%3AAstro&amp;type=repositories"><img src="https://img.shields.io/badge/Astro-ff5a03?style=flat-square" alt="Astro" /></a>
+  <a href="https://github.com/search?q=language%3APowerShell&amp;type=repositories"><img src="https://img.shields.io/badge/PowerShell-012456?style=flat-square" alt="PowerShell" /></a>
 </p>
+<!-- PROFILE-EN:TOOLBELT:END -->
 
 ---
 

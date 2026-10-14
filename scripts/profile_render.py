@@ -43,6 +43,74 @@ def _release_badge(repo: str, alt: str, color: str) -> str:
     )
 
 
+def primary_language(data: dict) -> dict | None:
+    """取仓库的主语言（字节数最大的那个）。GitHub 返回的顺序已按 SIZE 降序。"""
+    langs = data.get("languages") or []
+    return langs[0] if langs else None
+
+
+def aggregate_languages(repo_langs: dict[str, list[dict]], ignore: set[str], top: int) -> list[dict]:
+    """把各仓库的语言字节数汇总，返回占比最高的前 top 个。
+
+    占比按「该语言字节数 / 全部语言字节数」计算——也就是 GitHub 自己的口径。
+    """
+    totals: dict[str, dict] = {}
+    for langs in repo_langs.values():
+        for lang in langs:
+            name = lang.get("name")
+            if not name or name in ignore:
+                continue
+            entry = totals.setdefault(name, {"name": name, "color": lang.get("color"), "size": 0})
+            entry["size"] += lang.get("size") or 0
+    grand = sum(e["size"] for e in totals.values()) or 1
+    ranked = sorted(totals.values(), key=lambda e: (-e["size"], e["name"]))
+    for entry in ranked:
+        entry["percent"] = entry["size"] * 100.0 / grand
+    return ranked[:top]
+
+
+LANG_FALLBACK_COLOR = "8b8b8b"
+
+
+def _language_badge(name: str, color: str | None = None) -> str:
+    """语言徽章：用 GitHub 的官方语言色。
+
+    shields.io 的路径里 `-` 是分隔符，字面量要写两次；空格写成下划线。
+    先做这两个替换，再逐字节百分号编码——直接交给 quote() 会把 `--` 也编掉。
+    """
+    text = name.replace("-", "--").replace(" ", "_")
+    encoded = "".join(c if c.isalnum() or c in "._~" else f"%{ord(c):02X}" for c in text)
+    hexcolor = (color or LANG_FALLBACK_COLOR).lstrip("#")
+    search = quote(f"language:{name}", safe="")
+    return (
+        f'<a href="https://github.com/search?q={search}&amp;type=repositories">'
+        f'<img src="https://img.shields.io/badge/{encoded}-{hexcolor}?style=flat-square"'
+        f' alt="{escape(name)}" /></a>'
+    )
+
+
+def build_toolbelt(ranked: list[dict], pinned: list[str], top: int) -> str:
+    """底部工具栈。
+
+    pinned 里的语言（toolbelt_extra）永远上榜并排在最前——它们代表「你想让人看到的
+    技术栈」；剩余位置由实际字节占比最高的语言（ranked）补齐，代表「你实际写的代码」。
+    """
+    by_name = {l["name"]: l for l in ranked}
+    chosen: list[dict] = []
+    for name in pinned:
+        entry = by_name.get(name) or {"name": name, "color": None}
+        chosen.append({**entry, "pinned": True})
+    for entry in ranked:
+        if len(chosen) >= top:
+            break
+        if entry["name"] not in pinned:
+            chosen.append({**entry, "pinned": False})
+    if not chosen:
+        return ""
+    lines = [f"  {_language_badge(l['name'], l.get('color'))}" for l in chosen]
+    return '<p align="center">\n' + "\n".join(lines) + "\n</p>"
+
+
 def _static_badge(repo: str, label: str, message: str, color: str) -> str:
     # shields.io 用 + 表示空格，alt 文本里还原成空格更易读（"Python: MCP Server"）
     alt = f"{label}: {message.replace('+', ' ')}"
@@ -73,6 +141,16 @@ def build_badges(project: dict, data: dict, view: str = "zh",
     star_color = project.get("star_color", fallback_star_color)
 
     parts: list[str] = []
+    # 语言徽章放最前面：它描述「这是什么项目」，比版本号更先被看到。
+    # 默认取仓库主语言，projects.yml 里的 language 字段可覆盖 GitHub 的判定。
+    lang_name = project.get("language")
+    if lang_name:
+        parts.append(_language_badge(lang_name, project.get("language_color")))
+    else:
+        lang = primary_language(data)
+        if lang:
+            parts.append(_language_badge(lang["name"], lang.get("color")))
+
     if mode == "release":
         if data.get("tag"):
             parts.append(_release_badge(repo, alt, project.get("release_color", DEFAULT_RELEASE_COLOR)))
