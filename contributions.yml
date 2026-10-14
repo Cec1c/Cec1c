@@ -1,0 +1,42 @@
+# 「参与和工具」区块的文案覆盖源。
+#
+# 仓库列表、PR 编号、stars、链接全部由 CI 实时抓取，这里只负责把人工写好的中文/英文说明
+# 对应到具体的仓库和 PR 上。没有在这里出现的 PR 会自动降级为显示 PR 原始标题。
+#
+# 匹配规则：
+#   - 顶层键是 owner/name，必须带 owner 以避免同名歧义。
+#   - prs 下的键是 PR 编号。某个 PR 合并后会自动出现在主页；想给它写更好的说明时，
+#     把编号加到下面即可，不需要改 README。
+#   - takeaway_zh / takeaway_en 是卡片第一段的贡献概述。
+#   - 每张卡片最多展示该仓库最近 2 个 merged PR。
+
+# stars 徽章颜色（本区块默认 9c55d4）
+star_color: "9c55d4"
+
+repos:
+  seakee/CPA-Manager-Plus:
+    order: 1
+    takeaway_zh: 参与修复 Manager Server 插件资源代理中的认证提权问题。
+    takeaway_en: >-
+      contribution: fixed an authentication privilege-escalation issue in the Manager Server plugin
+      resource proxy.
+    prs:
+      463:
+        zh: 仅在通过管理员认证后使用保存的管理密钥，保留调用者自身的认证信息，并补充回归测试。
+        en: >-
+          use the saved management key only after admin authentication, preserve caller-provided
+          authorization, and add regression coverage.
+
+  taekchef/claude-code-zh-cn:
+    order: 2
+    title_zh: Claude Code 中文本地化
+    title_en: Claude Code Chinese Localization
+    alt: Claude Code Chinese localization
+    takeaway_zh: 参与 Windows 平台支持和 UI 翻译补全。
+    takeaway_en: >-
+      contribution: Windows platform support and UI translation improvements.
+    prs:
+      11:
+        zh: Windows PowerShell 安装、Hook、launcher 支持，以及 UI 翻译补全。
+        en: >-
+          Windows PowerShell installation, hooks, launcher support, and UI translation improvements.
