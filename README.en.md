@@ -33,7 +33,7 @@
       <h3>Codex-Cli-Ultra</h3>
       <p>
         <a href="https://github.com/Cec1c/codex-cli-ultra"><b>Cec1c/codex-cli-ultra</b></a>
-        adds external Fluent FTL language packs, Windows / Linux / macOS installation management, and optional themes and status-line extensions to Codex CLI. Simplified Chinese is the reference language pack; CCU Manager handles installation and updates.
+        lets you install and update Codex CLI with CCU Manager, load external Fluent FTL language packs, and enable optional themes and status-line extensions. It provides installation management for Windows, Linux, and macOS, with Simplified Chinese as the reference language pack.
       </p>
       <p>
         <a href="https://github.com/search?q=language%3AJavaScript&amp;type=repositories"><img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square" alt="JavaScript" /></a>
@@ -45,7 +45,7 @@
       <h3>Aletheia Lens</h3>
       <p>
         <a href="https://github.com/Cec1c/Aletheia-Lens"><b>Cec1c/Aletheia-Lens</b></a>
-        is a local image restoration tool built on ONNX Runtime, with a Windows GUI and CPU / CUDA 12 packages. It supports folder and archive batches, preserved directory structures, automatic mask detection, and optional manga descreening.
+        restores anime illustrations locally on Windows with ONNX Runtime, using CPU or CUDA 12 packages. It processes folders and archives, preserves directory structures, detects masks, and offers manga descreening.
       </p>
       <p>Experimental manual mask editing is available for single static images in mode I.</p>
       <p>
@@ -60,7 +60,7 @@
       <h3>ERPNext-MCP</h3>
       <p>
         <a href="https://github.com/Cec1c/ERPNext-MCP"><b>Cec1c/ERPNext-MCP</b></a>
-        connects AI agents to ERPNext / Frappe through native HTTP APIs, document and report queries, and manufacturing and stock tracing. Safe Mode is enabled by default; sensitive operations use approved, frozen plans, while large requests and responses remain available in full.
+        lets AI clients query ERPNext / Frappe documents and reports through native HTTP APIs and trace manufacturing and stock flows. Safe Mode is on by default; sensitive operations use approved, frozen plans, and large requests and responses can be stored in full and read in chunks.
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
@@ -72,7 +72,7 @@
       <h3>PVF-MCP</h3>
       <p>
         <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a>
-        is a Go MCP server for pvfUtility, exposing 26 tools for PVF search, structured editing, serialization, and saving. It can read the editor’s current document and selected files, and connects to AI clients over stdio.
+        connects AI clients to pvfUtility over stdio, with 26 tools to search, edit, serialize, and save PVF files, including access to the editor’s current document and selected files. The server is written in Go.
       </p>
       <p>
         <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
@@ -86,7 +86,7 @@
       <h3>CPAMP Theme Studio</h3>
       <p>
         <a href="https://github.com/Cec1c/cpamp-theme-studio"><b>Cec1c/cpamp-theme-studio</b></a>
-        is a standalone theme studio plugin for CPA Manager Plus, available through the Plugin Store. It provides preset palettes, custom accent colors, light/dark modes, fonts, radii, and layout controls, with live preview and persistent browser preferences.
+        lets you adjust colors, fonts, radii, and layouts inside CPA Manager Plus, preview changes live, and save preferences in the browser. Install it through the Plugin Store for preset palettes, custom accent colors, and light/dark modes.
       </p>
       <p>
         <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
@@ -98,7 +98,7 @@
       <h3>Mansus</h3>
       <p>
         <a href="https://github.com/Cec1c/Mansus"><b>Cec1c/Mansus</b></a>
-        is an Astro blog template based on Firefly, with aspect-based ink mixing, Markdown / MDX, full-text search, and quick GitHub Pages deployment.
+        is an Astro blog template based on Firefly. Write in Markdown / MDX, color posts through aspect-based ink mixing, search the full text, and deploy to GitHub Pages.
       </p>
       <p><a href="https://mansus.cc">Live demo</a></p>
       <p>
@@ -172,7 +172,7 @@
       <h3>I Ain't No Robot</h3>
       <p>
         <a href="https://github.com/Cec1c/iaintnorobot"><b>Cec1c/iaintnorobot</b></a>
-        is a multi-group chat interjection plugin for AstrBot whose goal is a bot that speaks less, shorter, and occasionally, like an ordinary group member. It configures groups through a WebUI, keeps lightweight SQLite memory, and adds cooldowns, topic-first triggering, randomized delays, and human-sounding short replies without any external service.
+        lets AstrBot join multiple group chats with occasional short replies. Configure triggers and cooldowns per group in the WebUI, with SQLite memory, topic checks, randomized delays, and short-reply filters. LLM calls and message delivery use AstrBot.
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
@@ -183,7 +183,7 @@
       <h3>Survey</h3>
       <p>
         <a href="https://github.com/Cec1c/Survey"><b>Cec1c/Survey</b></a>
-        is an LLM-powered reverse engineering assistant for IDA Pro with GUI and CLI entry points. Its MCP Bridge provides decompilation, cross-references, and memory data, plus tools for renaming, annotation, and type cleanup.
+        brings LLM-assisted reverse engineering to IDA Pro through a GUI or CLI. Its MCP Bridge provides decompilation, cross-references, memory reads, and tools for renaming, comments, and type cleanup.
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
@@ -197,7 +197,7 @@
       <h3>DeepCreamPy Batch Processor</h3>
       <p>
         <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor"><b>Cec1c/DeepCreamPy-Batch-Processor</b></a>
-        is an earlier batch image restoration script based on DeepCreamPy FastAPI, with support for preserved directory structures and transparency. It is no longer maintained; development continues in <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>.
+        batch-processes image restoration through DeepCreamPy FastAPI while preserving directory structures and transparency. Maintenance has ended; development continues in <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>.
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>

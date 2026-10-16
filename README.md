@@ -34,7 +34,7 @@
       <h3>Codex-Cli-Ultra</h3>
       <p>
         <a href="https://github.com/Cec1c/codex-cli-ultra"><b>Cec1c/codex-cli-ultra</b></a>
-        为 Codex CLI 提供外置 Fluent FTL 语言包、Windows / Linux / macOS 安装管理，以及可选的主题与状态栏扩展。当前参考语言包为简体中文，可通过 CCU Manager 管理安装和更新。
+        用 CCU Manager 安装和更新 Codex CLI，加载外置 Fluent FTL 语言包，并按需启用主题与状态栏扩展。提供 Windows / Linux / macOS 安装管理，参考语言包为简体中文。
       </p>
       <p>
         <a href="https://github.com/search?q=language%3AJavaScript&amp;type=repositories"><img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square" alt="JavaScript" /></a>
@@ -46,7 +46,7 @@
       <h3>Aletheia Lens</h3>
       <p>
         <a href="https://github.com/Cec1c/Aletheia-Lens"><b>Cec1c/Aletheia-Lens</b></a>
-        基于 ONNX Runtime 的本地图像修复工具，提供 Windows GUI 和 CPU / CUDA 12 打包版，支持文件夹与压缩包批处理、目录结构保留、自动遮罩识别和漫画去网点预处理。
+        在 Windows 上批量修复动漫插画，提供基于 ONNX Runtime 的 CPU / CUDA 12 打包版。可处理文件夹与压缩包，保留目录结构，自动识别遮罩，并按需为漫画去网点。
       </p>
       <p>实验性手动标注修复已加入，目前仅支持静态单图片和模式 I。</p>
       <p>
@@ -61,7 +61,7 @@
       <h3>ERPNext-MCP</h3>
       <p>
         <a href="https://github.com/Cec1c/ERPNext-MCP"><b>Cec1c/ERPNext-MCP</b></a>
-        面向 ERPNext / Frappe 的 MCP 服务，支持原生 HTTP API、文档与报表查询，以及制造和库存流程追踪。默认启用 Safe Mode，敏感操作按确认后的固定计划执行，大型请求和响应可完整保存、分段读取。
+        让 AI 客户端通过原生 HTTP API 查询 ERPNext / Frappe 文档与报表，追踪制造和库存流程。默认启用 Safe Mode；敏感操作按确认后冻结的计划执行，大型请求和响应可完整保存、分段读取。
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
@@ -73,7 +73,7 @@
       <h3>PVF-MCP</h3>
       <p>
         <a href="https://github.com/Cec1c/PVF-MCP"><b>Cec1c/PVF-MCP</b></a>
-        是面向 pvfUtility 的 Go MCP Server，以 26 个工具覆盖 PVF 搜索、结构化编辑、序列化和保存流程。支持读取编辑器当前文档与选中文件，通过 stdio 接入 AI 客户端。
+        让 AI 客户端通过 stdio 操作 pvfUtility，使用 26 个工具搜索、结构化编辑、序列化和保存 PVF，也可读取编辑器当前文档与选中文件。服务端使用 Go 编写。
       </p>
       <p>
         <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
@@ -87,7 +87,7 @@
       <h3>CPAMP Theme Studio</h3>
       <p>
         <a href="https://github.com/Cec1c/cpamp-theme-studio"><b>Cec1c/cpamp-theme-studio</b></a>
-        为 CPA Manager Plus 提供独立的主题工作室插件，可通过插件商店安装。支持预设配色、自定义强调色、明暗模式、字体、圆角与布局调整，实时预览并在浏览器中保存设置。
+        在 CPA Manager Plus 内调整配色、字体、圆角和布局，实时预览并将设置保存到浏览器。通过插件商店安装，支持预设、自定义强调色和明暗模式。
       </p>
       <p>
         <a href="https://github.com/search?q=language%3AGo&amp;type=repositories"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square" alt="Go" /></a>
@@ -99,7 +99,7 @@
       <h3>Mansus</h3>
       <p>
         <a href="https://github.com/Cec1c/Mansus"><b>Cec1c/Mansus</b></a>
-        是基于 Firefly 二次开发的 Astro 博客模板，支持准则墨水混色、Markdown / MDX、全文搜索和 GitHub Pages 快速部署。
+        用 Markdown / MDX 写博客，以准则墨水混色呈现文章气质。基于 Firefly 二次开发的 Astro 模板，内置全文搜索，支持 GitHub Pages 快速部署。
       </p>
       <p><a href="https://mansus.cc">在线示范</a></p>
       <p>
@@ -173,7 +173,7 @@
       <h3>I Ain't No Robot</h3>
       <p>
         <a href="https://github.com/Cec1c/iaintnorobot"><b>Cec1c/iaintnorobot</b></a>
-        面向 AstrBot 的多群自然插话插件，目标是让机器人少说、短说、偶尔接一句。支持多群 WebUI 配置、SQLite 轻量记忆、低频触发与冷却、话题优先判断、随机延迟和人味短句过滤，不依赖任何外部服务。
+        让 AstrBot 低频、简短地参与多个群聊。通过 WebUI 按群配置触发与冷却，结合 SQLite 记忆、话题判断、随机延迟和短句过滤；LLM 与消息发送复用 AstrBot。
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
@@ -184,7 +184,7 @@
       <h3>Survey</h3>
       <p>
         <a href="https://github.com/Cec1c/Survey"><b>Cec1c/Survey</b></a>
-        面向 IDA Pro 的 LLM 逆向分析助手，提供 GUI + CLI 双入口，通过 MCP Bridge 读取反编译、交叉引用和内存数据，辅助重命名、注释与类型整理。
+        在 IDA Pro 中通过 GUI 或 CLI 使用 LLM 辅助逆向分析。MCP Bridge 提供反编译、交叉引用和内存读取，以及重命名、注释和类型整理工具。
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
@@ -198,7 +198,7 @@
       <h3>DeepCreamPy Batch Processor</h3>
       <p>
         <a href="https://github.com/Cec1c/DeepCreamPy-Batch-Processor"><b>Cec1c/DeepCreamPy-Batch-Processor</b></a>
-        早期的批量图像修复脚本，基于 DeepCreamPy FastAPI，支持目录结构与透明图层保留。已停止更新，后续开发转至 <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>。
+        通过 DeepCreamPy FastAPI 批量修复图片，保留目录结构与透明图层。项目已停止更新，后续开发转至 <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>。
       </p>
       <p>
         <a href="https://github.com/search?q=language%3APython&amp;type=repositories"><img src="https://img.shields.io/badge/Python-3572A5?style=flat-square" alt="Python" /></a>
