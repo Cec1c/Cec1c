@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: pip install --quiet pyyaml
 
+      - name: Test profile updater
+        run: python -m unittest discover -s scripts -p "test_*.py" -v
+
       - name: Refresh README sections
         env:
           # 默认 token 足够读仓库元数据、提交 README、开 Issue

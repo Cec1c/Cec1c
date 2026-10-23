@@ -341,7 +341,8 @@ def toolbelt_repos(cfg: dict, owned: list[dict]) -> list[str]:
     ]
 
 
-def detect_new_repos(cfg: dict, contrib_cfg: dict, owned: list[dict]) -> list[dict]:
+def detect_new_repos(cfg: dict, contrib_cfg: dict, owned: list[dict],
+                     viewer: str, token: str) -> list[dict]:
     """找出「建仓已满 7 天、非 fork、未白名单、未忽略、未提醒过」的新仓库。"""
     ignores = set(cfg.get("ignore") or [])
     tracked = {p["repo"] for key in ("featured", "others") for p in (cfg.get(key) or [])}
@@ -516,7 +517,7 @@ def main() -> int:
         try:
             if not owned:
                 owned = fetch_owner_repos(viewer, token)
-            new_repos = detect_new_repos(cfg, contrib_cfg, owned)
+            new_repos = detect_new_repos(cfg, contrib_cfg, owned, viewer, token)
             if new_repos:
                 open_issue(viewer, new_repos, token, args.dry_run)
             else:
