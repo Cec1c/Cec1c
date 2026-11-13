@@ -1,0 +1,167 @@
+# 主页展示白名单：只有列在这里的仓库会出现在 README 的「近期项目 / 其他项目」区块。
+#
+# 维护方式：
+#   - 加项目：在 featured（近期项目）或 others（其他项目）下面追加一条，改完提交即可。
+#   - 调整顺序：直接拖动条目，README 里的展示顺序与这里一致。
+#   - 新仓库会被 CI 自动发现并开 Issue 提醒，但不会自动上榜——必须写进这里才会展示。
+#
+# 字段说明：
+#   repo          必填，owner/name
+#   title_zh/en   卡片标题
+#   desc_zh/en    卡片简介（长文案用 YAML 折叠块 >-，渲染时压平成一行）
+#   extra_zh/en   可选的补充段落
+#   links         可选的链接行，如在线示范
+#   badge         release（默认，自动取最新 tag + stars）
+#                 static （自定义文案徽章，如语言标签 + stars）
+#                 stars  （只显示 stars）
+#   release_color / badge_color / star_color  可选，覆盖徽章颜色
+#
+# ignore：永不收录、也永不触发新仓库提醒（自身仓库、fork、镜像、临时脚本）。
+
+featured:
+  - repo: Cec1c/codex-cli-ultra
+    title_zh: Codex-Cli-Ultra
+    title_en: Codex-Cli-Ultra
+    alt_zh: Codex CLI Ultra
+    alt_en: Codex CLI Ultra
+    desc_zh: >-
+      用 CCU Manager 安装和更新 Codex CLI，加载外置 Fluent FTL 语言包，并按需启用主题与状态栏扩展。提供 Windows / Linux / macOS 安装管理，参考语言包为简体中文。
+    desc_en: >-
+      lets you install and update Codex CLI with CCU Manager, load external Fluent FTL language packs, and enable optional themes and status-line extensions. It provides installation management for Windows, Linux, and macOS, with Simplified Chinese as the reference language pack.
+
+  - repo: Cec1c/Aletheia-Lens
+    title_zh: Aletheia Lens
+    title_en: Aletheia Lens
+    desc_zh: >-
+      在 Windows 上批量修复动漫插画，提供基于 ONNX Runtime 的 CPU / CUDA 12 打包版。可处理文件夹与压缩包，保留目录结构，自动识别遮罩，并按需为漫画去网点。
+    desc_en: >-
+      restores anime illustrations locally on Windows with ONNX Runtime, using CPU or CUDA 12 packages. It processes folders and archives, preserves directory structures, detects masks, and offers manga descreening.
+    extra_zh: 实验性手动标注修复已加入，目前仅支持静态单图片和模式 I。
+    extra_en: Experimental manual mask editing is available for single static images in mode I.
+
+  - repo: Cec1c/ERPNext-MCP
+    title_zh: ERPNext-MCP
+    title_en: ERPNext-MCP
+    alt_zh: ERPNext MCP
+    alt_en: ERPNext MCP
+    desc_zh: >-
+      让 AI 客户端通过原生 HTTP API 查询 ERPNext / Frappe 文档与报表，追踪制造和库存流程。默认启用 Safe Mode；敏感操作按确认后冻结的计划执行，大型请求和响应可完整保存、分段读取。
+    desc_en: >-
+      lets AI clients query ERPNext / Frappe documents and reports through native HTTP APIs and trace manufacturing and stock flows. Safe Mode is on by default; sensitive operations use approved, frozen plans, and large requests and responses can be stored in full and read in chunks.
+    badge: static
+    badge_label: Python
+    badge_message: MCP+Server
+    badge_color: "9c55d4"
+
+  - repo: Cec1c/PVF-MCP
+    title_zh: PVF-MCP
+    title_en: PVF-MCP
+    desc_zh: >-
+      让 AI 客户端通过 stdio 操作 pvfUtility，使用 26 个工具搜索、结构化编辑、序列化和保存 PVF，也可读取编辑器当前文档与选中文件。服务端使用 Go 编写。
+    desc_en: >-
+      connects AI clients to pvfUtility over stdio, with 26 tools to search, edit, serialize, and save PVF files, including access to the editor’s current document and selected files. The server is written in Go.
+    release_color: "d4772e"
+
+  - repo: Cec1c/cpamp-theme-studio
+    title_zh: CPAMP Theme Studio
+    title_en: CPAMP Theme Studio
+    desc_zh: >-
+      在 CPA Manager Plus 内调整配色、字体、圆角和布局，实时预览并将设置保存到浏览器。通过插件商店安装，支持预设、自定义强调色和明暗模式。
+    desc_en: >-
+      lets you adjust colors, fonts, radii, and layouts inside CPA Manager Plus, preview changes live, and save preferences in the browser. Install it through the Plugin Store for preset palettes, custom accent colors, and light/dark modes.
+
+  - repo: Cec1c/Mansus
+    title_zh: Mansus
+    title_en: Mansus
+    desc_zh: >-
+      用 Markdown / MDX 写博客，以准则墨水混色呈现文章气质。基于 Firefly 二次开发的 Astro 模板，内置全文搜索，支持 GitHub Pages 快速部署。
+    desc_en: >-
+      is an Astro blog template based on Firefly. Write in Markdown / MDX, color posts through aspect-based ink mixing, search the full text, and deploy to GitHub Pages.
+    links:
+      - url: https://mansus.cc
+        label_zh: 在线示范
+        label_en: Live demo
+    badge: static
+    badge_label: Astro
+    badge_message: blog+template
+    badge_color: "d4772e"
+
+others:
+  - repo: Cec1c/iaintnorobot
+    title_zh: I Ain't No Robot
+    title_en: I Ain't No Robot
+    desc_zh: >-
+      让 AstrBot 低频、简短地参与多个群聊。通过 WebUI 按群配置触发与冷却，结合 SQLite 记忆、话题判断、随机延迟和短句过滤；LLM 与消息发送复用 AstrBot。
+    desc_en: >-
+      lets AstrBot join multiple group chats with occasional short replies. Configure triggers and cooldowns per group in the WebUI, with SQLite memory, topic checks, randomized delays, and short-reply filters. LLM calls and message delivery use AstrBot.
+    badge: stars
+
+  - repo: Cec1c/Survey
+    title_zh: Survey
+    title_en: Survey
+    desc_zh: >-
+      在 IDA Pro 中通过 GUI 或 CLI 使用 LLM 辅助逆向分析。MCP Bridge 提供反编译、交叉引用和内存读取，以及重命名、注释和类型整理工具。
+    desc_en: >-
+      brings LLM-assisted reverse engineering to IDA Pro through a GUI or CLI. Its MCP Bridge provides decompilation, cross-references, memory reads, and tools for renaming, comments, and type cleanup.
+    badge: static
+    badge_label: Python
+    badge_message: IDA+Pro
+    badge_color: "d4772e"
+
+  - repo: Cec1c/DeepCreamPy-Batch-Processor
+    title_zh: DeepCreamPy Batch Processor
+    title_en: DeepCreamPy Batch Processor
+    desc_zh: >-
+      通过 DeepCreamPy FastAPI 批量修复图片，保留目录结构与透明图层。项目已停止更新，后续开发转至 <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>。
+    desc_en: >-
+      batch-processes image restoration through DeepCreamPy FastAPI while preserving directory structures and transparency. Maintenance has ended; development continues in <a href="https://github.com/Cec1c/Aletheia-Lens">Aletheia Lens</a>.
+    badge: stars
+
+# 语言判定：GitHub 按「代码字节数」算主语言，所以翻译文件、模板资源、标记文档都可能
+# 盖过真正的代码。下面两个名单分别管两件事。
+#
+# language_ignore：卡片上不显示这些语言。某仓库主语言被忽略时会顺延到下一个。
+language_ignore:
+  # 本地化的翻译文件（codex-cli-ultra 的 .ftl），不是编程语言
+  - Fluent
+
+# toolbelt_*：底部「工具栈」，统计范围是所有仓库（非 fork、非归档、未被 ignore）。
+#
+#   toolbelt_extra   钉住的语言：永远上榜、排在最前、按这里写的顺序。用「语言名 + 占比」
+#                    的徽章。留空则完全按字节占比自动排。
+#   toolbelt_top     一共显示几个。钉住的占用名额，剩下的由占比最高的语言补齐。
+#   toolbelt_ignore  统计时剔除的语言。
+#
+# 钉住的意义：字节占比会把实际在用的语言挤出前排——比如 Rust 和 PowerShell 的仓库小，
+# 占比进不了前 6，但它们确实是你技术栈的一部分。
+toolbelt_top: 6
+toolbelt_extra:
+  - Python
+  - Go
+  - JavaScript
+  - Rust
+  - Astro
+  - PowerShell
+toolbelt_ignore:
+  - Fluent
+  # 以下按需启用：模板/框架自带的资源文件，通常不代表自己写的代码
+  # - CSS
+  # - Svelte
+  # - Stylus
+  # - HTML
+  # - Markdown
+  # - Roff
+
+ignore:
+  - Cec1c/Cec1c
+  - Cec1c/ServerS5A3
+  - Cec1c/pebrel
+  - Cec1c/ARTEX
+  - Cec1c/ARTEX-backup
+  - Cec1c/ScopeSentry
+  - Cec1c/CVE-CPAMP
+  - Cec1c/CPA-Manager-Plus
+  - Cec1c/ShikiLuaQwQ
+  - Cec1c/codex
+  - Cec1c/MortarHUD
+  - Cec1c/tx-38sev-cheaper-robber

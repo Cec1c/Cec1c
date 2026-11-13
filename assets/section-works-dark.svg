@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="836" height="30" viewBox="0 0 836 30" fill="none" role="img" aria-label="造物 · WORKS">
+  <g transform="translate(9.5, 15.0)"><path d="M 0 -5.7 L 5.7 0 L 0 5.7 L -5.7 0 Z" stroke="#6faab7" stroke-opacity="0.32" stroke-width="0.85" fill="#6faab7" fill-opacity="0.08"/><path d="M 0 -2.9 L 0.97 -0.97 L 2.9 0 L 0.97 0.97 L 0 2.9 L -0.97 0.97 L -2.9 0 L -0.97 -0.97 Z" fill="#95c8d2"/></g>
+  <text x="24" y="19.5" fill="#e4eff3" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="13.5" font-weight="700">造物</text>
+  <text x="62" y="19" fill="#6d808d" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.6" font-weight="600" letter-spacing="1.8">WORKS</text>
+
+  <!-- Art Deco Hairline Rule with Hollow Diamond Finials -->
+  <path d="M 118 15 L 121 12.2 L 124 15 L 121 17.8 Z" stroke="#95c8d2" stroke-opacity="0.55" stroke-width="0.9" fill="none"/>
+  <line x1="126" y1="15" x2="760" y2="15" stroke="#1c2833" stroke-width="1"/>
+  <path d="M 762 15 L 765 12.2 L 768 15 L 765 17.8 Z" stroke="#6d808d" stroke-opacity="0.45" stroke-width="0.9" fill="none"/>
+
+  <text x="832" y="19" fill="#6d808d" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, 'Times New Roman', serif" font-size="10.8" font-weight="600" letter-spacing="1.5" text-anchor="end">I — VI</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="273" height="124" viewBox="0 0 273 124" fill="none" role="img" aria-labelledby="up-cc-zh-light-zh-t">
+  <title id="up-cc-zh-light-zh-t">taekchef/claude-code-zh-cn (Merged #11)</title>
+  <defs>
+    <linearGradient id="up-cc-zh-light-zh-bg" x1="0" y1="1" x2="273" y2="123" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fcfcfd"/>
+      <stop offset="100%" stop-color="#f2f5f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="1" width="272" height="122" rx="8.5" fill="url(#up-cc-zh-light-zh-bg)" stroke="#c7d3dc"/>
+  <path d="M 11.5 5.5 L 261.5 5.5 L 268.0 12.0 L 268.0 112.0 L 261.5 118.5 L 11.5 118.5 L 5.0 112.0 L 5.0 12.0 Z" stroke="#4d6e7d" stroke-opacity="0.17" stroke-width="0.8" fill="none"/><path d="M 5.0 19.0 L 5.0 12.0 L 11.5 5.5 L 20.5 5.5" stroke="#632c99" stroke-opacity="0.28" stroke-width="0.95" fill="none"/><path d="M 268.0 105.0 L 268.0 112.0 L 261.5 118.5 L 252.5 118.5" stroke="#632c99" stroke-opacity="0.28" stroke-width="0.95" fill="none"/>
+
+  <!-- Git Merge Icon + Owner + Chamfered Star Plaque -->
+  <g transform="translate(17, 16)" stroke="#632c99" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="3" cy="3" r="2.1"/>
+    <circle cx="3" cy="11" r="2.1"/>
+    <circle cx="11" cy="9" r="2.1"/>
+    <line x1="3" y1="5.1" x2="3" y2="8.9"/>
+    <path d="M5 3.5 C8 3.5, 11 5, 11 6.8"/>
+  </g>
+  <text x="35" y="26" fill="#5c707d" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.7" font-weight="500">taekchef /</text>
+
+  <path d="M 207.8 14.0 L 252.2 14.0 L 256.0 17.8 L 256.0 29.2 L 252.2 33.0 L 207.8 33.0 L 204.0 29.2 L 204.0 17.8 Z" fill="#eaf0f4" stroke="#cbd6df" stroke-width="0.9"/>
+  <text x="230.0" y="27" fill="#415461" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="600" text-anchor="middle">★ 849</text>
+
+  <!-- Repo Title -->
+  <text x="17" y="46" fill="#101c24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="14.1" font-weight="700" letter-spacing="-0.2">claude-code-zh-cn</text>
+
+  <!-- 2-Line Summary -->
+  <text x="17" y="66.5" fill="#364652" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="11.8">Windows PowerShell 安装器、</text>
+  <text x="17" y="84.5" fill="#364652" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="11.8">Hook / Launcher 与界面翻译</text>
+
+  <!-- Chamfered Merged PR Plaque -->
+  <path d="M 20.8 94.5 L 91.2 94.5 L 95.0 98.3 L 95.0 109.7 L 91.2 113.5 L 20.8 113.5 L 17.0 109.7 L 17.0 98.3 Z" fill="#f3edfb" stroke="#c3aae6" stroke-width="0.9"/>
+  <text x="56.0" y="107.5" fill="#632c99" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="600" text-anchor="middle">Merged #11</text>
+
+  <g transform="translate(248.0, 100.0)" stroke="#5c707d" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="7.8" x2="7.8" y2="0"/><polyline points="2.2,0 7.8,0 7.8,5.6"/></g>
+</svg>

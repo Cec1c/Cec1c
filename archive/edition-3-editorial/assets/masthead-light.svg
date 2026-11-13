@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="82" viewBox="0 0 840 82" fill="none" role="img" aria-labelledby="mast-title-light">
+  <title id="mast-title-light">Cec1c — 林地志异 · Personal Software Monograph</title>
+  <polygon points="4.5,6.3 7.7,9.5 4.5,12.7 1.2999999999999998,9.5" fill="#257b8a"/>
+  <polygon points="15.5,6.3 18.7,9.5 15.5,12.7 12.3,9.5" fill="#7c37b5"/>
+  <polygon points="26.5,6.3 29.7,9.5 26.5,12.7 23.3,9.5" fill="#c49a14"/>
+  <text x="40" y="13" fill="#656d76" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.5">PERSONAL MONOGRAPH &amp; SOFTWARE INDEX</text>
+  <text x="840" y="13" fill="#656d76" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.3" text-anchor="end">WINTER · KNOCK · LANTERN</text>
+  <line x1="0" y1="21.5" x2="840" y2="21.5" stroke="#d0d7de" stroke-width="1"/>
+
+  <text x="0" y="55" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="-0.4">Cec1c</text>
+  <line x1="94.5" y1="35" x2="94.5" y2="59" stroke="#d0d7de" stroke-width="1"/>
+  <text x="112" y="53" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif">
+    <tspan fill="#25292e" font-size="16" font-weight="600" letter-spacing="2">林地志异</tspan>
+    <tspan dx="10" fill="#59636e" font-size="13" font-weight="400" letter-spacing="0.4">器物、接口与长线服务索引</tspan>
+  </text>
+  <text x="840" y="52.5" fill="#656d76" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.1" text-anchor="end">FOLIO I–III · MANSUS.CC</text>
+
+  <line x1="0" y1="73.5" x2="840" y2="73.5" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="0" y1="73.5" x2="56" y2="73.5" stroke="#1f2328" stroke-width="1.8"/>
+  <line x1="0" y1="77.5" x2="840" y2="77.5" stroke="#e6eaef" stroke-width="1"/>
+</svg>

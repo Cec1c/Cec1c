@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="154" viewBox="0 0 414 154" fill="none" role="img" aria-labelledby="wk-aletheia-lens-light-en-t">
+  <title id="wk-aletheia-lens-light-en-t">Aletheia-Lens (★ 120)</title>
+  <defs>
+    <linearGradient id="wk-aletheia-lens-light-en-bg" x1="0" y1="1" x2="414" y2="153" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fcfcfd"/>
+      <stop offset="100%" stop-color="#f2f5f7"/>
+    </linearGradient>
+    <radialGradient id="wk-aletheia-lens-light-en-glow" cx="92%" cy="10%" r="52%">
+      <stop offset="0%" stop-color="#389ab5" stop-opacity="0.055"/>
+      <stop offset="100%" stop-color="#389ab5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wk-aletheia-lens-light-en-top" x1="16" y1="1" x2="210" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a687f" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#1a687f" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="wk-aletheia-lens-light-en-clip">
+      <rect x="0.5" y="1" width="413" height="152" rx="8.5"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="1" width="413" height="152" rx="8.5" fill="url(#wk-aletheia-lens-light-en-bg)" stroke="#c7d3dc"/>
+  <rect x="1" y="1.5" width="412" height="151" rx="8" fill="url(#wk-aletheia-lens-light-en-glow)"/>
+  <path d="M 11.5 5.5 L 402.5 5.5 L 409.0 12.0 L 409.0 142.0 L 402.5 148.5 L 11.5 148.5 L 5.0 142.0 L 5.0 12.0 Z" stroke="#4d6e7d" stroke-opacity="0.17" stroke-width="0.8" fill="none"/><path d="M 5.0 19.0 L 5.0 12.0 L 11.5 5.5 L 20.5 5.5" stroke="#175e73" stroke-opacity="0.32" stroke-width="0.95" fill="none"/><path d="M 409.0 135.0 L 409.0 142.0 L 402.5 148.5 L 393.5 148.5" stroke="#175e73" stroke-opacity="0.32" stroke-width="0.95" fill="none"/>
+  <line x1="16" y1="1" x2="210" y2="1" stroke="url(#wk-aletheia-lens-light-en-top)" stroke-width="1.4"/>
+
+  <!-- Whisper-faint Mansus Tarot Aspect Geometry -->
+  <g clip-path="url(#wk-aletheia-lens-light-en-clip)" opacity="0.055">
+    <path d="M 366 96 L 366 34 A 20 20 0 0 1 406 34 L 406 96" stroke="#175e73" stroke-width="0.9" fill="none"/><line x1="386" y1="54" x2="386" y2="96" stroke="#175e73" stroke-width="1.1"/><path d="M 386.00 29.33 L 386.95 32.05 L 389.26 33.00 L 386.95 33.95 L 386.00 37.01 L 385.05 33.95 L 382.74 33.00 L 385.05 32.05 Z" fill="#175e73" fill-opacity="0.95"/><path d="M 379.00 37.98 L 379.78 40.22 L 381.69 41.00 L 379.78 41.78 L 379.00 44.30 L 378.22 41.78 L 376.31 41.00 L 378.22 40.22 Z" fill="#175e73" fill-opacity="0.85"/><path d="M 393.00 37.98 L 393.78 40.22 L 395.69 41.00 L 393.78 41.78 L 393.00 44.30 L 392.22 41.78 L 390.31 41.00 L 392.22 40.22 Z" fill="#175e73" fill-opacity="0.85"/>
+  </g>
+
+  <!-- Title + Mansus 4-Point Diamond Stud + Chamfered Octagonal Star Plaque -->
+  <g transform="translate(26.0, 29.5)"><path d="M 0 -5.9 L 5.9 0 L 0 5.9 L -5.9 0 Z" stroke="#298099" stroke-opacity="0.28" stroke-width="0.85" fill="#298099" fill-opacity="0.08"/><path d="M 0 -2.9 L 1.00 -1.00 L 2.9 0 L 1.00 1.00 L 0 2.9 L -1.00 1.00 L -2.9 0 L -1.00 -1.00 Z" fill="#175e73"/></g>
+  <text x="40" y="35" fill="#101c24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.2">Aletheia-Lens</text>
+
+  <path d="M 340.5 18.5 L 387.5 18.5 L 392.0 23.0 L 392.0 36.0 L 387.5 40.5 L 340.5 40.5 L 336.0 36.0 L 336.0 23.0 Z" fill="#eaf5f8" stroke="#8abbc9" stroke-width="0.9"/>
+  <text x="364.0" y="33.5" fill="#0f4859" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.2" font-weight="600" text-anchor="middle">★ 120</text>
+
+  <!-- Description (2 crisp lines) -->
+  <text x="21" y="64" fill="#364652" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.2" font-weight="400">Anime illustration batch restoration GUI powered by ONNX</text>
+  <text x="21" y="86.5" fill="#364652" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.2" font-weight="400">Runtime (CPU / CUDA 12): archive read, auto-mask &amp; descreen.</text>
+
+  <!-- Hairline Divider + Chamfered Stack Plaques + Arrow -->
+  <line x1="21" y1="106.5" x2="393" y2="106.5" stroke="#dfe6ec" stroke-width="1"/>
+  <path d="M 24.5 117.5 L 84.5 117.5 L 88.0 121.0 L 88.0 135.0 L 84.5 138.5 L 24.5 138.5 L 21.0 135.0 L 21.0 121.0 Z" fill="#eaf0f4" stroke="#cbd6df" stroke-width="0.9"/><path d="M 31.5 125.3 L 34.2 128.0 L 31.5 130.7 L 28.8 128.0 Z" fill="#4B8BBE"/><text x="39.5" y="132" fill="#415461" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.9" font-weight="500">Python</text><path d="M 98.5 117.5 L 139.5 117.5 L 143.0 121.0 L 143.0 135.0 L 139.5 138.5 L 98.5 138.5 L 95.0 135.0 L 95.0 121.0 Z" fill="#eaf0f4" stroke="#cbd6df" stroke-width="0.9"/><text x="119.0" y="132" fill="#415461" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.7" font-weight="500" text-anchor="middle">v1.3.0</text><path d="M 153.5 117.5 L 249.5 117.5 L 253.0 121.0 L 253.0 135.0 L 249.5 138.5 L 153.5 138.5 L 150.0 135.0 L 150.0 121.0 Z" fill="#eaf0f4" stroke="#cbd6df" stroke-width="0.9"/><text x="201.5" y="132" fill="#415461" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.7" font-weight="500" text-anchor="middle">ONNX · CUDA 12</text>
+
+  <g transform="translate(382.0, 123.5)" stroke="#5c707d" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="8.8" x2="8.8" y2="0"/><polyline points="2.5,0 8.8,0 8.8,6.3"/></g>
+</svg>

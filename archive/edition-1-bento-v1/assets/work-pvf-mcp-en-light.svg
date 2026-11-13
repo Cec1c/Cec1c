@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="154" viewBox="0 0 414 154" fill="none" role="img" aria-labelledby="wk-pvf-mcp-light-en-t">
+  <title id="wk-pvf-mcp-light-en-t">PVF-MCP (★ 19)</title>
+  <defs>
+    <linearGradient id="wk-pvf-mcp-light-en-bg" x1="0" y1="1" x2="414" y2="153" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6f8fb"/>
+    </linearGradient>
+    <radialGradient id="wk-pvf-mcp-light-en-glow" cx="92%" cy="12%" r="56%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wk-pvf-mcp-light-en-top" x1="18" y1="1" x2="210" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14839e" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#14839e" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="wk-pvf-mcp-light-en-clip">
+      <rect x="0.5" y="1" width="413" height="152" rx="11.5"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="1" width="413" height="152" rx="11.5" fill="url(#wk-pvf-mcp-light-en-bg)" stroke="#d4dce4"/>
+  <rect x="1" y="1.5" width="412" height="151" rx="11" fill="url(#wk-pvf-mcp-light-en-glow)"/>
+  <line x1="18" y1="1" x2="210" y2="1" stroke="url(#wk-pvf-mcp-light-en-top)" stroke-width="1.6"/>
+
+  <!-- Subtle corner astrolabe arc -->
+  <g clip-path="url(#wk-pvf-mcp-light-en-clip)" opacity="0.07">
+    <circle cx="398" cy="14" r="38" stroke="#0e7490" stroke-width="0.9"/>
+    <circle cx="398" cy="14" r="56" stroke="#0e7490" stroke-width="0.75" stroke-dasharray="2 4"/>
+  </g>
+
+  <!-- Title + Aspect Dot + Star Pill -->
+  <circle cx="25" cy="29.5" r="7" fill="#06b6d4" fill-opacity="0.16"/>
+  <circle cx="25" cy="29.5" r="3.5" fill="#0e7490"/>
+  <text x="38" y="35" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="16.2" font-weight="700" letter-spacing="-0.2">PVF-MCP</text>
+
+  <rect x="345" y="18.5" width="49" height="22" rx="11" fill="#ebfafd" stroke="#92cedb" stroke-width="0.9"/>
+  <text x="369.5" y="33.5" fill="#0c566a" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.3" font-weight="600" text-anchor="middle">★ 19</text>
+
+  <!-- Description (2 crisp lines) -->
+  <text x="20" y="64" fill="#374151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.3" font-weight="400">stdio MCP server for pvfUtility exposing 26 tools for PVF</text>
+  <text x="20" y="86.5" fill="#374151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.3" font-weight="400">archive search, structured editing &amp; active document read.</text>
+
+  <!-- Hairline Divider + Stack Chips + Arrow -->
+  <line x1="20" y1="106.5" x2="394" y2="106.5" stroke="#e6ebf1" stroke-width="1"/>
+  <rect x="20" y="118" width="39" height="21" rx="6" fill="#eef2f6" stroke="#d6dee7" stroke-width="0.9"/><circle cx="30" cy="128.5" r="3.2" fill="#00ADD8"/><text x="38" y="132.5" fill="#475569" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="500">Go</text><rect x="66" y="118" width="78" height="21" rx="6" fill="#eef2f6" stroke="#d6dee7" stroke-width="0.9"/><text x="105.0" y="132.5" fill="#475569" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.8" font-weight="500" text-anchor="middle">BetaV0.3.5</text><rect x="151" y="118" width="73" height="21" rx="6" fill="#eef2f6" stroke="#d6dee7" stroke-width="0.9"/><text x="187.5" y="132.5" fill="#475569" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.8" font-weight="500" text-anchor="middle">stdio MCP</text>
+
+  <g transform="translate(383.0, 124.0)" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="9.0" x2="9.0" y2="0"/><polyline points="2.5,0 9.0,0 9.0,6.5"/></g>
+</svg>

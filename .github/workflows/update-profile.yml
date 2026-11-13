@@ -1,6 +1,6 @@
 name: Update Profile README
 
-# 每天北京时间 06:00 刷新主页的「近期项目 / 参与和工具 / 其他项目」三个区块。
+# 每天北京时间 06:00 刷新主页的「造物 / 开源贡献」两个受管区块与配套深浅色 SVG 磁贴。
 # 数据没变化时不会产生提交。
 on:
   schedule:
@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
-      contents: write # 提交 README
+      contents: write # 提交 README 与受管 SVG
       issues: write # 开「发现未收录仓库」提醒
 
     steps:
@@ -34,22 +34,20 @@ jobs:
       - name: Test profile updater
         run: python -m unittest discover -s scripts -p "test_*.py" -v
 
-      - name: Refresh README sections
+      - name: Refresh README and Bento SVGs
         env:
-          # 默认 token 足够读仓库元数据、提交 README、开 Issue
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # 读「我的贡献图」需要用户级凭证；缺失时贡献区块保持原样并给出警告
           PROFILE_PAT: ${{ secrets.PROFILE_PAT }}
         run: python scripts/update_profile.py
 
       - name: Commit and push
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain README.md README.en.md assets/)" ]; then
             echo "数据无变化，跳过提交"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md README.en.md
+          git add README.md README.en.md assets/
           git commit -m "chore: 自动刷新主页项目与贡献数据"
           git push

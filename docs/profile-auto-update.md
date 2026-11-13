@@ -1,140 +1,47 @@
-# 主页自动更新说明
+# 主页自动更新与留档说明
 
-主页 README 里的「近期项目 / 参与和工具 / 其他项目」三个区块由 GitHub Actions 自动维护，
-每天北京时间 06:00 刷新一次，也可以在任何时候手动触发。
+主页采用「漫宿 · 冬寂版」（Mansus Winter Bento）无框深浅双色 SVG 磁贴架构。其中的「造物 · WORKS」与「开源贡献 · UPSTREAM」两个区块及对应 SVG 磁贴由 GitHub Actions 每天北京时间 06:00 自动刷新，贪吃蛇动画每 12 小时自动更新至 `output` 分支。
 
-## 它是怎么工作的
+## 结构与数据流
 
-```
-.github/workflows/update-profile.yml   # 定时任务
-        └─ scripts/update_profile.py   # 更新脚本
-                ├─ scripts/profile_render.py   # 卡片渲染（不联网，可单独测试）
-                ├─ projects.yml                # 项目白名单（人工维护）
-                └─ contributions.yml           # 贡献文案覆盖（人工维护，可选）
-```
-
-脚本只重写 README 里被注释标记圈住的部分：
-
-```markdown
-<!-- PROFILE:FEATURED:START -->
-...这一段是脚本生成的，不要手改...
-<!-- PROFILE:FEATURED:END -->
+```text
+.github/workflows/update-profile.yml    # 每日刷新代表作与外部贡献 SVG + README
+        └─ scripts/update_profile.py    # 更新脚本
+                ├─ scripts/profile_render.py   # Bento 矢量磁贴与 GFM 渲染（纯函数，可单测）
+                ├─ projects.yml                # 造物白名单与忽略列表（人工维护）
+                └─ contributions.yml           # 外部开源贡献概述（人工维护，可选）
+.github/workflows/generate-snake.yml    # 每 12 小时生成漫宿「冬」色贪吃蛇至 output 分支
+archive/                                # 历史原版与备选方案（方案三·林地志异、方案一初版）留档
 ```
 
-标记外面的内容（终端头部、工具栈、状态条、公益服务器区块、结语）永远不动。
+脚本只重写两份 README 里被注释标记包裹的部分及受管 SVG（`assets/section-*.svg`、`assets/work-*.svg`、`assets/upstream-*.svg`）：
 
-## 加一个新项目
+- 中文版：`<!-- PROFILE:FEATURED:START -->` / `<!-- PROFILE:CONTRIB:START -->`
+- 英文版：`<!-- PROFILE-EN:FEATURED:START -->` / `<!-- PROFILE-EN:CONTRIB:START -->`
 
-1. 在 `projects.yml` 里选一个区块：
-   - `featured` → README 的「近期项目」
-   - `others` → README 的「其他项目」
-2. 追加一条，填写中英文案：
+标记外部的首屏（终端 `assets/hero-terminal-*.svg`、冬之印身份卡 `assets/hero-identity-*.svg`、三准则徽章 `assets/aspects/badge-*.svg`）、无字冬之十字分割线、贪吃蛇与底部三联入口永不被更新脚本覆盖。
+
+## 维护代表造物
+
+编辑 `projects.yml` 的 `featured` 列表（每两个仓库排成一行）：
 
 ```yaml
   - repo: Cec1c/新仓库名
     title_zh: 卡片标题
     title_en: Card Title
-    desc_zh: 一句话或一段话的中文简介。
-    desc_en: One or two sentences in English.
-    badge: release      # release / static / stars，多数情况不用写（默认 release）
+    aspect: winter          # winter / lantern / knock（可选，不填自动轮转）
+    badge: release          # release（默认，自动取最新 tag）/ static / stars
+    tag3: "关键技术栈"       # 可选，第 3 枚铭牌
+    desc_zh: 一句话讲清项目用途、核心运行方式与关键能力。
+    desc_en: One concise sentence describing what it does and how it runs.
 ```
 
-改完提交，等下一次定时任务，或手动触发一次 workflow 即可。
+如需精确控制两行折行点，可直接提供两元素的 `lines_zh` 与 `lines_en` 列表。
 
-语言徽章不用写——脚本会自动取该仓库的主语言（按代码字节数最大的那个）。
+## 维护开源贡献
 
-如果 GitHub 判定的主语言不符预期，可以覆盖：
+外部仓库只要有已合并的 PR，就会在下次运行时自动收录到「开源贡献 · UPSTREAM」磁贴行并生成底部 PR 快捷跳转。如需自定义精炼概述，在 `contributions.yml` 补充 `takeaway_zh/en` 或 `lines_zh/en`。
 
-```yaml
-    language: TypeScript          # 覆盖自动判定
-    language_color: "3178c6"      # 可选，覆盖颜色；默认用 GitHub 官方语言色
-```
+## 新仓库提醒与忽略
 
-## 语言是怎么判定的
-
-GitHub 按**代码字节数**决定语言构成，因此偶尔会不准：
-
-- 仓库里翻译文件（`.ftl`）、模板资源（`.css`、`.svelte`）占比大时，可能盖过真正的源码
-- 一个以文档为主的仓库可能被判成 Markdown
-
-`language_ignore` 列出「不算数」的语言，卡片会自动顺延到下一个；底部的 `toolbelt_ignore` 是同一
-思路，但只管工具栈的统计。
-
-## 底部工具栈怎么组成
-
-```yaml
-toolbelt_top: 6              # 一共显示几个
-toolbelt_extra:              # 钉住的语言：永远上榜、排最前、按这里的顺序
-  - Python
-  - Go
-  - JavaScript
-  - Rust
-  - Astro
-  - PowerShell
-toolbelt_ignore: [Fluent]    # 统计时剔除
-```
-
-**为什么需要 `toolbelt_extra`**：字节占比会把你实际在用的语言挤出前排。比如 Rust 和 PowerShell
-的仓库体量小，占比只有 2% 左右，纯按排名进不了前 6——但它们确实是你技术栈的一部分。钉住之后，
-排行榜仍然照常计算，只是这些语言永远占一个位置。
-
-把 `toolbelt_extra` 留空，工具栈就完全按实际占比自动排——新增项目用了新语言会自己冒出来。
-
-## 想让某个 PR 出现在「参与和工具」
-
-不需要做任何事。只要 PR 合并了，脚本会在下次运行时自动发现它，并带着 PR 标题出现在主页上。
-
-如果想给它写更好的中文说明，在 `contributions.yml` 里补一条：
-
-```yaml
-repos:
-  owner/repo:
-    order: 3                    # 卡片排序，数字小的在前
-    title_zh: 卡片标题
-    takeaway_zh: 参与做了什么，一句话概述。
-    prs:
-      123:                      # PR 编号
-        zh: 这个 PR 具体改了什么。
-        en: What this PR changed.
-```
-
-没写的部分会降级：没有 takeaway 就只显示仓库链接，没有 PR 说明就显示 PR 原始标题。
-
-## 不想让某个仓库出现 / 被提醒
-
-在 `projects.yml` 的 `ignore` 里加上 `owner/name`。加进去之后既不会上榜，也不会再收到提醒。
-
-## 新仓库提醒
-
-脚本每天扫描你名下「非 fork、非归档、建仓满 7 天」的仓库，发现既不在白名单也不在 `ignore`
-里的，就开一个带 `profile-updater` 标签的 Issue 列出来。同一个仓库只提醒一次，无论 Issue
-是否关闭。
-
-- **要收录** → 按上面的「加一个新项目」操作，然后关掉 Issue。
-- **不收录** → 加进 `ignore`，然后关掉 Issue。
-
-## 关于 PROFILE_PAT
-
-「参与和工具」区块需要读你的贡献图，而 Actions 自带的 `GITHUB_TOKEN` 读不到，因此需要一个
-用户级凭证，存在仓库 Secret 里，名字叫 `PROFILE_PAT`。
-
-创建方式（任选其一）：
-
-- **Fine-grained token**：Settings → Developer settings → Personal access tokens → Fine-grained tokens，
-  只勾 `Public repositories` 的只读权限即可。
-- **Classic token**：同一个页面里的 Classic 分支，勾 `read:user`。
-
-建好后在仓库的 Settings → Secrets and variables → Actions 里新建名为 `PROFILE_PAT` 的 Secret。
-
-**如果这个 Secret 缺失或过期**：脚本会打印明确的警告，贡献区块保持上一次的内容不变，
-其他区块照常更新，并且以非零退出码结束（Actions 会显示为失败，你就能注意到）。
-
-## 出问题时怎么办
-
-| 现象 | 原因与处理 |
-|---|---|
-| Actions 失败，日志里有 `Bad credentials` | `PROFILE_PAT` 过期，重新生成并更新 Secret |
-| 日志里有 `标记 ... 出现 0 次` | README 里的标记被误删了，对照上面的格式补回成对标记 |
-| 主页某张卡片的版本号看着旧 | 该仓库的 GitHub Release 没有标记为 "Latest"，在 Releases 页面点一下 `Set as the latest release` |
-| 想立刻刷新而不是等到明天 | 仓库 Actions 页面 → Update Profile README → Run workflow |
-| 数据没变化但产生了提交 | 不应该发生。脚本对相同输入产生逐字节相同的输出，若有请检查是否有手工改动落在标记区间内 |
+脚本每天扫描名下「非 fork、非归档、建仓满 7 天」的公开仓库。若既不在 `featured` 也不在 `ignore` 中，会自动创建带 `profile-updater` 标签的提醒 Issue（同一仓库只提醒一次）。不展示的仓库加入 `projects.yml` 的 `ignore` 即可。

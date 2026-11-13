@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="162" viewBox="0 0 280 162" fill="none" role="img" aria-labelledby="id-title">
+  <title id="id-title">Cec1c · mansus.cc · 冬 · 灯 · 启</title>
+  <defs>
+    <linearGradient id="id-bg" x1="0" y1="1" x2="280" y2="161" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fcfcfd"/>
+      <stop offset="100%" stop-color="#f2f5f7"/>
+    </linearGradient>
+    <linearGradient id="id-top-bar" x1="16" y1="1" x2="264" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#165c70" stop-opacity="0.82"/>
+      <stop offset="68%" stop-color="#165c70" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#165c70" stop-opacity="0.0"/>
+    </linearGradient>
+    <radialGradient id="id-winter-aura" cx="82%" cy="28%" r="54%">
+      <stop offset="0%" stop-color="#165c70" stop-opacity="0.11"/>
+      <stop offset="60%" stop-color="#165c70" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#165c70" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="winter-disc-fill" cx="50%" cy="34%" r="65%">
+      <stop offset="0%" stop-color="#0d4354" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#165c70" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#165c70" stop-opacity="0.04"/>
+    </radialGradient>
+    <linearGradient id="white-door-slit" x1="231.0" y1="61" x2="231.0" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d4354" stop-opacity="0.66"/>
+      <stop offset="100%" stop-color="#165c70" stop-opacity="0.06"/>
+    </linearGradient>
+    <clipPath id="winter-disc-clip">
+      <circle cx="231.0" cy="43.0" r="18"/>
+    </clipPath>
+    <clipPath id="winter-arch-clip">
+      <path d="M 208.5 92 L 208.5 43 A 22.5 22.5 0 0 1 253.5 43 L 253.5 92 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="1" width="279" height="160" rx="8.5" fill="url(#id-bg)" stroke="#c7d3dc"/>
+  <rect x="1" y="1.5" width="278" height="159" rx="8" fill="url(#id-winter-aura)"/>
+  <path d="M 11.5 5.5 L 268.5 5.5 L 275.0 12.0 L 275.0 150.0 L 268.5 156.5 L 11.5 156.5 L 5.0 150.0 L 5.0 12.0 Z" stroke="#4d6e7d" stroke-opacity="0.17" stroke-width="0.8" fill="none"/><path d="M 5.0 19.0 L 5.0 12.0 L 11.5 5.5 L 20.5 5.5" stroke="#165c70" stroke-opacity="0.38" stroke-width="0.95" fill="none"/><path d="M 275.0 143.0 L 275.0 150.0 L 268.5 156.5 L 259.5 156.5" stroke="#165c70" stroke-opacity="0.38" stroke-width="0.95" fill="none"/>
+  <line x1="16" y1="1" x2="264" y2="1" stroke="url(#id-top-bar)" stroke-width="1.5"/>
+
+  <!-- BESPOKE WINTER EMBLEM: The White Door, Pale Sun-in-Rags & Silent Snow -->
+  <g opacity="0.90">
+    <!-- Faint Tarot Sightlines inside the Threshold Arch -->
+    <g clip-path="url(#winter-arch-clip)">
+      <line x1="231.0" y1="43.0" x2="205.0" y2="28.0" stroke="#165c70" stroke-opacity="0.16" stroke-width="0.7"/><line x1="231.0" y1="43.0" x2="212.0" y2="19.0" stroke="#165c70" stroke-opacity="0.16" stroke-width="0.7"/><line x1="231.0" y1="43.0" x2="231.0" y2="14.0" stroke="#165c70" stroke-opacity="0.16" stroke-width="0.7"/><line x1="231.0" y1="43.0" x2="250.0" y2="19.0" stroke="#165c70" stroke-opacity="0.16" stroke-width="0.7"/><line x1="231.0" y1="43.0" x2="257.0" y2="28.0" stroke="#165c70" stroke-opacity="0.16" stroke-width="0.7"/><line x1="231.0" y1="43.0" x2="205.0" y2="55.0" stroke="#165c70" stroke-opacity="0.16" stroke-width="0.7"/><line x1="231.0" y1="43.0" x2="257.0" y2="55.0" stroke="#165c70" stroke-opacity="0.16" stroke-width="0.7"/>
+    </g>
+
+    <!-- Outer Art Deco Mansus Arch (The White Door Threshold) -->
+    <path d="M 205.0 92 L 205.0 43 A 26 26 0 0 1 257.0 43 L 257.0 92"
+          stroke="#165c70" stroke-opacity="0.48" stroke-width="0.95"/>
+    <path d="M 208.5 92 L 208.5 43 A 22.5 22.5 0 0 1 253.5 43 L 253.5 92"
+          stroke="#165c70" stroke-opacity="0.24" stroke-width="0.75"/>
+
+    <!-- Tiny Art Deco diamond clasps at arch springing (y=43) & apex (y=13.5) -->
+    <path d="M 231.0 11.2 L 233.0 13.8 L 231.0 16.4 L 229.0 13.8 Z" fill="#165c70" fill-opacity="0.68"/>
+    <path d="M 205.0 41.2 L 206.8 43 L 205.0 44.8 L 203.2 43 Z" fill="#165c70" fill-opacity="0.48"/>
+    <path d="M 257.0 41.2 L 258.8 43 L 257.0 44.8 L 255.2 43 Z" fill="#165c70" fill-opacity="0.48"/>
+
+    <!-- Pale Bleached Disc of Winter (Skull-Moon / Sun-in-Rags) -->
+    <circle cx="231.0" cy="43.0" r="18" fill="url(#winter-disc-fill)" stroke="#165c70" stroke-opacity="0.78" stroke-width="1.1"/>
+
+    <!-- Woodcut-contrast snowdrift horizon inside lower chord of disc (echoing winter.png) -->
+    <g clip-path="url(#winter-disc-clip)">
+      <path d="M 212.0 52.8 C 219.0 49.6, 225.0 55.6, 231.0 52.6 C 237.0 49.6, 243.0 55.2, 250.0 52.0 L 250.0 63 L 212.0 63 Z"
+            fill="#dce9ee" fill-opacity="0.92"/>
+      <path d="M 212.0 52.8 C 219.0 49.6, 225.0 55.6, 231.0 52.6 C 237.0 49.6, 243.0 55.2, 250.0 52.0"
+            stroke="#0d4354" stroke-opacity="0.82" stroke-width="1.1" fill="none"/>
+    </g>
+    <circle cx="231.0" cy="43.0" r="18" stroke="#165c70" stroke-opacity="0.78" stroke-width="1.05" fill="none"/>
+
+    <!-- Canonical Triad of Silent 4-Pointed Crosses (from Cultist Simulator Winter symbol) -->
+    <path d="M 231.00 31.99 L 232.09 35.11 L 234.74 36.20 L 232.09 37.29 L 231.00 40.80 L 229.91 37.29 L 227.26 36.20 L 229.91 35.11 Z" fill="#0d4354" fill-opacity="0.88"/>
+    <path d="M 224.10 40.72 L 225.08 43.52 L 227.46 44.50 L 225.08 45.48 L 224.10 48.63 L 223.12 45.48 L 220.74 44.50 L 223.12 43.52 Z" fill="#0d4354" fill-opacity="0.84"/>
+    <path d="M 237.90 40.72 L 238.88 43.52 L 241.26 44.50 L 238.88 45.48 L 237.90 48.63 L 236.92 45.48 L 234.54 44.50 L 236.92 43.52 Z" fill="#0d4354" fill-opacity="0.84"/>
+
+    <!-- Beneath the Disc: Narrow Ajar Slit of The White Door & Silent Stepped Plinth -->
+    <line x1="223.5" y1="62.5" x2="223.5" y2="92" stroke="#517a87" stroke-opacity="0.36" stroke-width="0.75"/>
+    <line x1="238.5" y1="62.5" x2="238.5" y2="92" stroke="#517a87" stroke-opacity="0.36" stroke-width="0.75"/>
+    <rect x="229.70" y="61" width="2.6" height="31" fill="url(#white-door-slit)"/>
+    <!-- Frozen Sun-in-Rags / Elegiast single silent vertical tear-drop diamond -->
+    <path d="M 231.0 72.0 L 233.3 75.6 L 231.0 79.2 L 228.7 75.6 Z"
+          fill="#fcfcfd" stroke="#0d4354" stroke-opacity="0.78" stroke-width="0.9"/>
+
+    <!-- Stepped Silent Threshold Base -->
+    <line x1="201.0" y1="92" x2="261.0" y2="92" stroke="#165c70" stroke-opacity="0.50" stroke-width="0.95"/>
+    <line x1="209.0" y1="95.2" x2="253.0" y2="95.2" stroke="#165c70" stroke-opacity="0.28" stroke-width="0.8"/>
+  </g>
+
+  <!-- Identity Typography -->
+  <text x="20" y="29" fill="#5c707d" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.2" font-weight="600" letter-spacing="1.8">MANSUS · 漫宿</text>
+  <text x="20" y="57" fill="#101c24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="23" font-weight="700" letter-spacing="-0.3">Cec1c</text>
+
+  <!-- Chamfered Art Deco Blog Plaque -->
+  <path d="M 24.5 69.0 L 129.5 69.0 L 134.0 73.5 L 134.0 87.5 L 129.5 92.0 L 24.5 92.0 L 20.0 87.5 L 20.0 73.5 Z" fill="#ebf4f7" stroke="#8ebbc9" stroke-width="0.9"/>
+  <path d="M 31.5 77.6 L 34.1 80.5 L 31.5 83.4 L 28.9 80.5 Z" fill="#8a6814"/>
+  <text x="40" y="84.5" fill="#104959" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.3" font-weight="600">mansus.cc</text>
+  <g transform="translate(117.5, 77.2)" stroke="#104959" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="6.2" x2="6.2" y2="0"/><polyline points="1.7,0 6.2,0 6.2,4.5"/></g>
+
+  <line x1="20" y1="104.5" x2="260" y2="104.5" stroke="#dfe6ec" stroke-width="1"/>
+
+  <!-- 3 Signature Mansus Aspect Pills (56 x 28 each, cloisonne dark-enamel finish) -->
+  <g transform="translate(20, 116)">
+    <rect x="0.5" y="0.5" width="55" height="27" rx="13.5" fill="#0b1b21" stroke="#95c8d2" stroke-opacity="0.86"/>
+    <image href="data:image/png;base64,UklGRogFAABXRUJQVlA4THwFAAAvY8AYEG+FoG3bNOnHn/M3EAjatm2ozn6G bduGTYVyN4Js21ANPoQTSNrwAu4xspNdZ9k9u+6yGyMOAwDAAAFgAMsSFCWO DWAAoIA2gQBIm6NqY8NO75n3AQoANt9zKL3HAtq8e5QAKEABlncPIxA28z6A 0Zs2834W0HsYIgBtFgsQYFGWPf/HsLQBG2ajAKBY1n8cv2QJbXrDACA40Ud3 Xtg4APr7/6eRlDn3/TC75xLciu9RrOd3c1hOoXiR4lKc4gSnuBSXnMvezPev nDT5Ju0+/BrR/wno9XpzFk2gsyeWzO2Nz1uBTp9Y0Ov15k2g6xf25kyg8yfm LcYsuHTFbDC7Jhl/KrzFhWLPXTLiriVClDUxK5eSSSUIVdZBKJZ6gJBT3Qqd wjVKsqxUxiJLE+ECUbagjGAdpaUm57pMIytgoAPTErYirYi9yiIbCBVUFcEy KsizSiyA3I+2KwSao5ICrBMLSC9knaFZ5BSoipsw0GFINA80hZs1IdYhSDSK koKu4gbE2p9EY1xT4Fo2YOAtQ6PUFH7eAOmpQKOkVhYNyL1UoqGglhYNUB50 BHNBrS0ahGZRYxLmjFpcmJCwlTBLanVmQs6khSmhlkuTqHlSGIVum44NSFhq mBW1vjKhdMspMaXUgZkp0k6ZgjHSXUCxAZmTTEwl+a+Lyp8yicJFwJhQgCki fyQNiFwaVQgRUPirTcwJhQgg8kfSRxGCAoCB9lZ5EBSgEmMQhS9K+NIAUjQn laeCr/KXwjr3o9ki8l9Li6ggzwMuGQBRnY8NkJP3nKsIgmhMUYA1V90tJJio YxKeJKQ6iIxHhhNlFGTOk4VS1hSo4sn5jjz0k5VrXVRhKT4pbvKQImLToYxM FwAeIuBlLgpkhswAFB+AqF2NJYCcTQHA4AjPMCgVwygqDiXGIF5hoXB0Ckvx jVuK5i3fOo3oM56SRcL6whMuKayfdCH6vM+SsRR2BbnW0iIqyP2LcLTKZYMo iLHOxwbIyTxjlfMkLOMxgFwpYh5T1HzS6mGwRmwZAEXsDseHVjt4oLkqAFUg Z8h6JVPJRQORkJ+6YUjW34E5ZSPSXqKMeJ/mijz4LGvi3suFug38R8Gedckb fFEIo1Onz84EsZ0PZQDB/j7pIemOw/CpuuLoJE9kSrriAIyRSyEMKLvhVxhF 6aIyU6Q7YaspU04UGZB1wfswCs2gTFCG4ahFxy80FcRAA9OVeoxmWrQDxoRY tDBg27kxGo7a8mjfVPFQacL2X89Qe0dPw5wREw1MuP6ln48P2zH854mVppjY 9CYTVk4feuGTX46NQjv5wzO3nAejqPhINQCY2jj94Od66Dbz34+flq+/+v5P J0YOo+Pfv37ompVoLMgDFRYAVm6+/92/hlbn/v3qxbuvv3DD6lXrLt/5+Ce/ n5w5NxwOz53548tXH95z1do+mlPyQtIKmLrs4Oenm87+9s49167po7G/4brt d+47eOjAnTumL1zVh7UkTyTt0F954/O/j4hodOLHV+66dAphSvJG0g7A2l2v vffW68/ed/OmPswrV036kRQASRdg/ab1q1dOwjx56f4X33zy3m1XbVo12e+j 3x/r9/sWOQVBmZP15Pl3fHSSiGb+/u6DVx67Z29yc7z5hunpqzegURQUCJXC YbJp5SW3v/rnkBpHp//79Zfvv/26emc3mkVFwVAd21x0256r1kxNrVpz8a2P fPjbWXKvJCxFRQERZRbAFQ889dyLb7z98c/HRuSs8xi2UUlhURVbAIgzRYwq i2EtCnL2R5RZjccyU8qkVJYmcJWa2kBV7OBZlMTplCveQTiiVKy5y//AJbPB 8rkTs8D83oLuW9jr9RZMdNzC3vi8ZV22Yn6v1wM= " x="9" y="5" width="18" height="18" preserveAspectRatio="xMidYMid meet"/>
+    <text x="39.5" y="18.5" fill="#d7f4f8" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">冬</text>
+  </g>
+  <g transform="translate(84, 116)">
+    <rect x="0.5" y="0.5" width="55" height="27" rx="13.5" fill="#1f1a0a" stroke="#d8c66b" stroke-opacity="0.84"/>
+    <image href="data:image/png;base64,UklGRt4EAABXRUJQVlA4TNEEAAAvY8AYEPdAIGmzAt/79z3PIBBIYQYfBNm2 oRp8CBebJDjVKYAGPoWwpHPOve9A3bZtuLa2v7o8c5ECWZjv/56LECfnf0T/ J+Dz+fzy9/94739+/djfvvDqX398Pp/fvvD2f3x++R+v//XbX/gB//36CX7W qM3rFAA+fMvTSNR+mKDsZgGQ+S0BSGY/CxCnMQsgZV6NHpCjzLgABParB3bO owLwdVb2aIcJGyD1xg64+gQTgH1SFvTDkAKI7AcAmY/wAHBOqQ53dWQHPPsX gMixeI8ewDUj4PY2AkjuZQF2TpB8rwiwzXAmqCaDOpTYrR6QOgMItxgmwSrJ hg5IYn8HoJyDrdypMkdMJHMjD1T2I4BAm0cEgFw3WLTOOE3fcXYGsLN5jFwH AOy1N7n6WzrNAb42MkaVSQA4fYbV3wicnQBXaatMYHYAEJ5h9R2vZdYOybTV YwbrDgA+T8geTXfo0bHbtgFyjXhf2Nwwh4wAIHnM49k8sFU2D0DiHGYHwI/h 4X2gGwDJOon1BPbVZEoCJHMaeQVd7ZxxAUh8YqY+5a46lAWQutaJ52XIAbi4 liyAPBABJC6GFXVAIIkvlAc8Li6X1beiDvZcyJy9EllaysGGj4UPrsUnCh99 i8Cf4HoTN297k71RZuBNrgabOXhIIulMehE1m8kbrJDcjXuNa4eNJJOgrWQy CCuFJwqaUsmEvpLcDNJCkD3VWVfrIhMGqjfIC1kfdEZ1jURmMdvWYxYjeS0A Uoeqh01kFQA4mW8wCwD4usoRXQM6UjxsIqsHgJ3kHUaDbZVA6iEA8kAW2EQy AIDUTm1xNzjWIZm18H4W2ESywkZ2cqc6g7TScBbYgySjkdqLHWpDysCBuZM8 rKf15mBPcoenwT6wLRTRzKbC5huQM2qD3kDvVW3GFVzjoL2M4x3rG7mx3evq SN/tuXehWRqnOVuuh2wYDMpCgPTOhmfTm9RK0tMGnYkrudTbGrFRYLVFZlW9 lcy2QNQ277Z0jr1VjHSqqtZJyomt0qCY61a+RYNWBACni7G9m/OWTsgNOlgf tC6x30vG3TonaEvFWL8vEBvaKgZ6x5lyr7bI5FrjU0ojteiMv5EAwPMe7yZZ ht4cnWBwdLKYdM/dYg1ulWSktqozCI0sAODYzea4RzLHfYkqAHC2mBvYrqoH mqmTxaQhknEFBoOrxdS4u7F9CQAIZ5Ylqhi5WlQZKK2EZpjCJRgNEFqs561E W080Xf0+3BpwqRqyBN86Cu3l0M78RtU3ADkuQ7KqqrKZNnQTvxOzbwGQI6hq ZVvTIeiK8nux7r0Ht8LvRl7uoV354ELktc/zqfLRpcgS3Qw5C5+eVIILZQrJ vI8lPj+lHAAg02QM6RvohmaYlAUAXMpqr8PgWixeG5pOOTcLAJyV/ewASF6r f1bOrR5AqLxdPQCpQwd2feoonL0DODhaBcAxJADiI0fh9AgAZYgJgAxlAbDl WXIWzq8CYNPxCwDiCIsHgDDnrHwy4FEdIQ8A8HmG8lF5xo0xwKbFEh7OY0wG iWWl46k4gcngOFbyTx0zmAQzn8HT2xRmeRnMYd1e5ppDJlnq+xb3E/AaifrO Iy//9SP88xP8/+vXD/D754/3+/Pz+fz59XJ/fuxv/77Zf79/Ph8A " x="9" y="5" width="18" height="18" preserveAspectRatio="xMidYMid meet"/>
+    <text x="39.5" y="18.5" fill="#f7e89c" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">灯</text>
+  </g>
+  <g transform="translate(148, 116)">
+    <rect x="0.5" y="0.5" width="55" height="27" rx="13.5" fill="#190c24" stroke="#9c55d4" stroke-opacity="0.86"/>
+    <image href="data:image/png;base64,UklGRiAFAABXRUJQVlA4TBQFAAAvY8AYEP+AoG3bZPvNn/RACAlSaEeBQAo3 OIJs21ANPoRnpepUr7rV2AczAAY8gD/ADICWbdtNJCna+7xPAiHEe+jOf5w8 OTrrP6L/E/D5fH768z9833/9/Hn+8oVv/eu3z+fzyxe++98+P/2Hb//rlz/w A/zn60fwY006P8myWHT6OZI5ueaAN27KyfqKmgVv3fR/UwRvTvV/YRGjYctZ /ZKPTUYg1/8goz8cV+XwfR2hC0j1ZXdEbziM0+0IPQj2qkvQuRUuvrYOoLzo RGdUvlC3DqTXJLSl8KUaW4j1HQntvbJtuy0hcwvB3pDQlIu9AbKIFhsQW5fQ jDe7AdRFrKkBsVUFzVQ5pKvIswGpay40Ewevd7A0EJeYNAoHVSbVcmzbtmVt sDRwLKgRfmF3jegU69Ed7VA8lgZ03gE/s/9Ad2zVHf3RHJZGqLMUfuKgSY9Y wwTDxWH2kCfV4G0cvrXII6ve9E0wsTjcPdicA67UMZIFQGZnFUwtTo3eNsXg K6dWANqT4O+Xqp57Q+4HzcM1Y/MOTgZC7ajwC/16OEgOsxfqWIEb6qxNlJ2n V9hp8sDtMDrIY8ErnF3ZvTs7yZqAqCSLkz31pIwEuBvfKc5NVsHzItXZPO4O wkhTX4JnIpngBpIOGrc3eeM7zSkkxYMNMa0oL1HHSKKpZHa0YQuEryLJ4AnJ 4liDcd7xFnOU5OUVkrvDdplnb6GTSFIDIIVkxTN01GmB70Lh05TP7KQO7rPS ew4H9vANrvacs8prTDyxlooT2Wuz7reYoCnno14JvnZR5gibdwrAZtNM0C3o Pdi/zdkat+Ap14Saw2mC6ZGDeU5q7PDlHtuxdKsj55zcAAABgH1Muo4sA5nD OufsCZYAoA6ht5A1S0e6+RLtibc+dEHhs+bw2EvlzHtNQlM4qh0727cap6+5 pXGN1NihHUvXUMUpHKwRnfwGaBEIysFT8M2QZhysG7rDJNsFwK4NWzdcI/qv OSrwi6dz8gKLaCdTNc6NaIb/hwnahQsBSLk2AObkOds0EzSjcVEiDwDqHHPC LBM0j8qlAqAoAJizzUGdY4Jm4eIEAAJA6GLyNcUEzczV9ngWx2YdM0zQ1mXU 8IgX3XNWnGCCzryOvFXZ3mfhHjJBd3lBd8X0PGKCfrFXlXlh4EQ7FwEA0Tdt 83D13BvambweQHnPjYVbxy3oFCOzg/KatALaSugWI3cH9pIqczZvaxgGxVij I7VDIHXagbmXOFAvedKAGG95QDsA6KwbfhjR4oXqbE4xaUCMJo+775q1NcoQ g4PsXACkkFcLYjQBCvvypAt+0rHLgz54q1aSLC2IserNTgUgRe8JVTy5J3Dz Qn10Hi3Izd6MttShDX7mDPOwDzBNkg7oSIYfOYWHh2OgxkZhN3ptoMCXe1KN Hkofa3AK+289H6eqsd/QLJxEEw+ljyaAFI4/lKMmjYPTeDVQ+miSKt9hAn/n Ah4NlL7ZM1Tgx7qEewPnCwQQ9hc0Q+WaGhtIdVkRlL4DTTEuYo0NRFvFauy9 I5piXMYaG5BzVf8paIrxBaypAUR9i21oB+MryCININ1vuBM6Y+VbWLcWkHSV JvQm9i8iT2kB8azz7jOiVy6+i3fsALCdNkNzRP92821k7gIgWy56O7deOUWM hovjb6CGvtWSK9edOvUK79kunXqOfPNfP4S/fgT//fz1A/j189v39/vn8/n9 65v7/fP85e/v7N9fP58P " x="9" y="5" width="18" height="18" preserveAspectRatio="xMidYMid meet"/>
+    <text x="39.5" y="18.5" fill="#e8d6fa" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">启</text>
+  </g>
+
+  <!-- Winter's Canonical Motto ("……" — Three Fading Silent Frost Lozenges) -->
+  <g transform="translate(226, 130)">
+    <path d="M 0 -2.4 L 2.4 0 L 0 2.4 L -2.4 0 Z" fill="#165c70" fill-opacity="0.72"/>
+    <path d="M 11 -1.9 L 12.9 0 L 11 1.9 L 9.1 0 Z" fill="#165c70" fill-opacity="0.44"/>
+    <path d="M 21 -1.5 L 22.5 0 L 21 1.5 L 19.5 0 Z" fill="#165c70" fill-opacity="0.22"/>
+  </g>
+</svg>

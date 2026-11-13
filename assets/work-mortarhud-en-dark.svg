@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="154" viewBox="0 0 414 154" fill="none" role="img" aria-labelledby="wk-mortarhud-dark-en-t">
+  <title id="wk-mortarhud-dark-en-t">MortarHUD (★ 34)</title>
+  <defs>
+    <linearGradient id="wk-mortarhud-dark-en-bg" x1="0" y1="1" x2="414" y2="153" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1118"/>
+      <stop offset="100%" stop-color="#06090e"/>
+    </linearGradient>
+    <radialGradient id="wk-mortarhud-dark-en-glow" cx="92%" cy="10%" r="52%">
+      <stop offset="0%" stop-color="#95c8d2" stop-opacity="0.085"/>
+      <stop offset="100%" stop-color="#95c8d2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wk-mortarhud-dark-en-top" x1="16" y1="1" x2="210" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#95c8d2" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#95c8d2" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="wk-mortarhud-dark-en-clip">
+      <rect x="0.5" y="1" width="413" height="152" rx="8.5"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="1" width="413" height="152" rx="8.5" fill="url(#wk-mortarhud-dark-en-bg)" stroke="#1d2935"/>
+  <rect x="1" y="1.5" width="412" height="151" rx="8" fill="url(#wk-mortarhud-dark-en-glow)"/>
+  <path d="M 11.5 5.5 L 402.5 5.5 L 409.0 12.0 L 409.0 142.0 L 402.5 148.5 L 11.5 148.5 L 5.0 142.0 L 5.0 12.0 Z" stroke="#95c8d2" stroke-opacity="0.13" stroke-width="0.8" fill="none"/><path d="M 5.0 19.0 L 5.0 12.0 L 11.5 5.5 L 20.5 5.5" stroke="#95c8d2" stroke-opacity="0.32" stroke-width="0.95" fill="none"/><path d="M 409.0 135.0 L 409.0 142.0 L 402.5 148.5 L 393.5 148.5" stroke="#95c8d2" stroke-opacity="0.32" stroke-width="0.95" fill="none"/>
+  <line x1="16" y1="1" x2="210" y2="1" stroke="url(#wk-mortarhud-dark-en-top)" stroke-width="1.4"/>
+
+  <!-- Whisper-faint Mansus Tarot Aspect Geometry -->
+  <g clip-path="url(#wk-mortarhud-dark-en-clip)" opacity="0.06">
+    <path d="M 366 96 L 366 34 A 20 20 0 0 1 406 34 L 406 96" stroke="#95c8d2" stroke-width="0.9" fill="none"/><line x1="386" y1="54" x2="386" y2="96" stroke="#95c8d2" stroke-width="1.1"/><path d="M 386.00 29.33 L 386.95 32.05 L 389.26 33.00 L 386.95 33.95 L 386.00 37.01 L 385.05 33.95 L 382.74 33.00 L 385.05 32.05 Z" fill="#95c8d2" fill-opacity="0.95"/><path d="M 379.00 37.98 L 379.78 40.22 L 381.69 41.00 L 379.78 41.78 L 379.00 44.30 L 378.22 41.78 L 376.31 41.00 L 378.22 40.22 Z" fill="#95c8d2" fill-opacity="0.85"/><path d="M 393.00 37.98 L 393.78 40.22 L 395.69 41.00 L 393.78 41.78 L 393.00 44.30 L 392.22 41.78 L 390.31 41.00 L 392.22 40.22 Z" fill="#95c8d2" fill-opacity="0.85"/>
+  </g>
+
+  <!-- Title + Mansus 4-Point Diamond Stud + Chamfered Octagonal Star Plaque -->
+  <g transform="translate(26.0, 29.5)"><path d="M 0 -5.9 L 5.9 0 L 0 5.9 L -5.9 0 Z" stroke="#6faab7" stroke-opacity="0.32" stroke-width="0.85" fill="#6faab7" fill-opacity="0.08"/><path d="M 0 -2.9 L 1.00 -1.00 L 2.9 0 L 1.00 1.00 L 0 2.9 L -1.00 1.00 L -2.9 0 L -1.00 -1.00 Z" fill="#95c8d2"/></g>
+  <text x="40" y="35" fill="#edf5f8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.2">MortarHUD</text>
+
+  <path d="M 344.5 18.5 L 387.5 18.5 L 392.0 23.0 L 392.0 36.0 L 387.5 40.5 L 344.5 40.5 L 340.0 36.0 L 340.0 23.0 Z" fill="#0b1b22" stroke="#366370" stroke-width="0.9"/>
+  <text x="366.0" y="33.5" fill="#d6f2f7" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.2" font-weight="600" text-anchor="middle">★ 34</text>
+
+  <!-- Description (2 crisp lines) -->
+  <text x="21" y="64" fill="#aebdc7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.2" font-weight="400">Transparent always-on-top Wardogs mortar HUD solving map</text>
+  <text x="21" y="86.5" fill="#aebdc7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.2" font-weight="400">azimuth &amp; range in real time via OpenCV &amp; Tesseract.</text>
+
+  <!-- Hairline Divider + Chamfered Stack Plaques + Arrow -->
+  <line x1="21" y1="106.5" x2="393" y2="106.5" stroke="#17222c" stroke-width="1"/>
+  <path d="M 24.5 117.5 L 156.5 117.5 L 160.0 121.0 L 160.0 135.0 L 156.5 138.5 L 24.5 138.5 L 21.0 135.0 L 21.0 121.0 Z" fill="#0f1720" stroke="#22303d" stroke-width="0.9"/><path d="M 31.5 125.3 L 34.2 128.0 L 31.5 130.7 L 28.8 128.0 Z" fill="#5ca36c"/><text x="39.5" y="132" fill="#93a5b3" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.9" font-weight="500">C# · WPF / .NET 10</text><path d="M 170.5 117.5 L 208.5 117.5 L 212.0 121.0 L 212.0 135.0 L 208.5 138.5 L 170.5 138.5 L 167.0 135.0 L 167.0 121.0 Z" fill="#0f1720" stroke="#22303d" stroke-width="0.9"/><text x="189.5" y="132" fill="#93a5b3" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.7" font-weight="500" text-anchor="middle">v1.1.0</text><path d="M 222.5 117.5 L 350.5 117.5 L 354.0 121.0 L 354.0 135.0 L 350.5 138.5 L 222.5 138.5 L 219.0 135.0 L 219.0 121.0 Z" fill="#0f1720" stroke="#22303d" stroke-width="0.9"/><text x="286.5" y="132" fill="#93a5b3" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.7" font-weight="500" text-anchor="middle">OpenCV · Tesseract</text>
+
+  <g transform="translate(382.0, 123.5)" stroke="#70828f" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="8.8" x2="8.8" y2="0"/><polyline points="2.5,0 8.8,0 8.8,6.3"/></g>
+</svg>

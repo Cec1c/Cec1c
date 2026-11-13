@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="836" height="24" viewBox="0 0 836 24" fill="none" role="presentation">
+  <defs>
+    <linearGradient id="div-l-light" x1="16" y1="12.5" x2="384.0" y2="12.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ced9e1" stop-opacity="0.15"/>
+      <stop offset="65%" stop-color="#ced9e1" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#175e73" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="div-r-light" x1="452.0" y1="12.5" x2="820" y2="12.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#175e73" stop-opacity="0.55"/>
+      <stop offset="35%" stop-color="#ced9e1" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ced9e1" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <line x1="16" y1="12.5" x2="388.0" y2="12.5" stroke="url(#div-l-light)" stroke-width="1"/>
+  <line x1="448.0" y1="12.5" x2="820" y2="12.5" stroke="url(#div-r-light)" stroke-width="1"/>
+
+  <!-- Left & Right micro aspect diamonds + Central Silent Winter Cross -->
+  <path d="M 400.0 10.3 L 402.2 12.5 L 400.0 14.7 L 397.8 12.5 Z" fill="#8a6814" fill-opacity="0.52"/>
+  <path d="M 418.0 5.7 L 424.8 12.5 L 418.0 19.3 L 411.2 12.5 Z" stroke="#175e73" stroke-opacity="0.45" stroke-width="0.85" fill="none"/>
+  <path d="M 418.00 8.61 L 419.01 11.49 L 421.46 12.50 L 419.01 13.51 L 418.00 16.75 L 416.99 13.51 L 414.54 12.50 L 416.99 11.49 Z" fill="#175e73" fill-opacity="0.85"/>
+  <path d="M 436.0 10.3 L 438.2 12.5 L 436.0 14.7 L 433.8 12.5 Z" fill="#632c99" fill-opacity="0.52"/>
+</svg>

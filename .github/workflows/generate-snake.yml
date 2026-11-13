@@ -17,13 +17,13 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate snake assets
+      - name: Generate Mansus Winter snake assets
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Cec1c
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#632c99&color_dots=#eef2f5,#cfe3e9,#95bfcc,#51899a,#1b5566
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#9c55d4&color_dots=#0e141d,#152833,#234958,#4d8597,#95c8d2
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

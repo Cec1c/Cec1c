@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="38" viewBox="0 0 840 38" fill="none" role="img" aria-labelledby="ch-lantern-light">
+  <title id="ch-lantern-light">CHAPTER III · LANTERN</title>
+  <line x1="0" y1="8.5" x2="840" y2="8.5" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="0" y1="8.5" x2="56" y2="8.5" stroke="#c49a14" stroke-width="2"/>
+  <polygon points="4.0,21.0 7.0,24.0 4.0,27.0 1.0,24.0" fill="#c49a14"/>
+  <text x="14" y="27.5" fill="#946f00" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.4">CHAPTER III · LANTERN</text>
+  <text x="840" y="27.5" fill="#656d76" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.1" text-anchor="end">RETRO SERVER STACK &amp; COMMONS · 03 / 03</text>
+</svg>

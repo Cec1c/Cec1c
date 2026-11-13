@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="38" viewBox="0 0 840 38" fill="none" role="img" aria-labelledby="ch-knock-light">
+  <title id="ch-knock-light">CHAPTER II · KNOCK</title>
+  <line x1="0" y1="8.5" x2="840" y2="8.5" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="0" y1="8.5" x2="56" y2="8.5" stroke="#7c37b5" stroke-width="2"/>
+  <polygon points="4.0,21.0 7.0,24.0 4.0,27.0 1.0,24.0" fill="#7c37b5"/>
+  <text x="14" y="27.5" fill="#6e2ca6" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.4">CHAPTER II · KNOCK</text>
+  <text x="840" y="27.5" fill="#656d76" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.1" text-anchor="end">PROTOCOLS, CLI &amp; UPSTREAM PATCHES · 02 / 03</text>
+</svg>

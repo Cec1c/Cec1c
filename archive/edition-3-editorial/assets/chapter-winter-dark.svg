@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="38" viewBox="0 0 840 38" fill="none" role="img" aria-labelledby="ch-winter-dark">
+  <title id="ch-winter-dark">CHAPTER I · WINTER</title>
+  <line x1="0" y1="8.5" x2="840" y2="8.5" stroke="#30363d" stroke-width="1"/>
+  <line x1="0" y1="8.5" x2="56" y2="8.5" stroke="#95c8d2" stroke-width="2"/>
+  <polygon points="4.0,21.0 7.0,24.0 4.0,27.0 1.0,24.0" fill="#95c8d2"/>
+  <text x="14" y="27.5" fill="#95c8d2" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.4">CHAPTER I · WINTER</text>
+  <text x="840" y="27.5" fill="#7d8590" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.1" text-anchor="end">LOCAL VISION &amp; DESKTOP INSTRUMENTS · 01 / 03</text>
+</svg>

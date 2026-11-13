@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="154" viewBox="0 0 414 154" fill="none" role="img" aria-labelledby="wk-servers5a3-light-en-t">
+  <title id="wk-servers5a3-light-en-t">ServerS5A3 (★ 85)</title>
+  <defs>
+    <linearGradient id="wk-servers5a3-light-en-bg" x1="0" y1="1" x2="414" y2="153" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fcfcfd"/>
+      <stop offset="100%" stop-color="#f2f5f7"/>
+    </linearGradient>
+    <radialGradient id="wk-servers5a3-light-en-glow" cx="92%" cy="10%" r="52%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.055"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wk-servers5a3-light-en-top" x1="16" y1="1" x2="210" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6b32a3" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#6b32a3" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="wk-servers5a3-light-en-clip">
+      <rect x="0.5" y="1" width="413" height="152" rx="8.5"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="1" width="413" height="152" rx="8.5" fill="url(#wk-servers5a3-light-en-bg)" stroke="#c7d3dc"/>
+  <rect x="1" y="1.5" width="412" height="151" rx="8" fill="url(#wk-servers5a3-light-en-glow)"/>
+  <path d="M 11.5 5.5 L 402.5 5.5 L 409.0 12.0 L 409.0 142.0 L 402.5 148.5 L 11.5 148.5 L 5.0 142.0 L 5.0 12.0 Z" stroke="#4d6e7d" stroke-opacity="0.17" stroke-width="0.8" fill="none"/><path d="M 5.0 19.0 L 5.0 12.0 L 11.5 5.5 L 20.5 5.5" stroke="#632c99" stroke-opacity="0.32" stroke-width="0.95" fill="none"/><path d="M 409.0 135.0 L 409.0 142.0 L 402.5 148.5 L 393.5 148.5" stroke="#632c99" stroke-opacity="0.32" stroke-width="0.95" fill="none"/>
+  <line x1="16" y1="1" x2="210" y2="1" stroke="url(#wk-servers5a3-light-en-top)" stroke-width="1.4"/>
+
+  <!-- Whisper-faint Mansus Tarot Aspect Geometry -->
+  <g clip-path="url(#wk-servers5a3-light-en-clip)" opacity="0.055">
+    <path d="M 368 88 L 386 16 L 404 88" stroke="#632c99" stroke-width="0.9" fill="none"/><path d="M 375 88 L 386 38 L 397 88" stroke="#632c99" stroke-width="0.8" fill="none"/><circle cx="386" cy="30" r="5.5" stroke="#632c99" stroke-width="0.9" fill="none"/><line x1="386" y1="35.5" x2="386" y2="68" stroke="#632c99" stroke-width="0.9"/>
+  </g>
+
+  <!-- Title + Mansus 4-Point Diamond Stud + Chamfered Octagonal Star Plaque -->
+  <g transform="translate(26.0, 29.5)"><path d="M 0 -5.9 L 5.9 0 L 0 5.9 L -5.9 0 Z" stroke="#7e42ba" stroke-opacity="0.28" stroke-width="0.85" fill="#7e42ba" fill-opacity="0.08"/><path d="M 0 -2.9 L 1.00 -1.00 L 2.9 0 L 1.00 1.00 L 0 2.9 L -1.00 1.00 L -2.9 0 L -1.00 -1.00 Z" fill="#632c99"/></g>
+  <text x="40" y="35" fill="#101c24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.2">ServerS5A3</text>
+
+  <path d="M 344.5 18.5 L 387.5 18.5 L 392.0 23.0 L 392.0 36.0 L 387.5 40.5 L 344.5 40.5 L 340.0 36.0 L 340.0 23.0 Z" fill="#f4eefb" stroke="#bfa5e3" stroke-width="0.9"/>
+  <text x="366.0" y="33.5" fill="#4c1d7a" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.2" font-weight="600" text-anchor="middle">★ 85</text>
+
+  <!-- Description (2 crisp lines) -->
+  <text x="21" y="64" fill="#364652" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.2" font-weight="400">Go Linux server &amp; persistence core for a retro side-scrolling</text>
+  <text x="21" y="86.5" fill="#364652" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.2" font-weight="400">action game: Docker deploy, 120-channel checks &amp; hot events.</text>
+
+  <!-- Hairline Divider + Chamfered Stack Plaques + Arrow -->
+  <line x1="21" y1="106.5" x2="393" y2="106.5" stroke="#dfe6ec" stroke-width="1"/>
+  <path d="M 24.5 117.5 L 56.5 117.5 L 60.0 121.0 L 60.0 135.0 L 56.5 138.5 L 24.5 138.5 L 21.0 135.0 L 21.0 121.0 Z" fill="#eaf0f4" stroke="#cbd6df" stroke-width="0.9"/><path d="M 31.5 125.3 L 34.2 128.0 L 31.5 130.7 L 28.8 128.0 Z" fill="#58B9D0"/><text x="39.5" y="132" fill="#415461" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.9" font-weight="500">Go</text><path d="M 70.5 117.5 L 169.5 117.5 L 173.0 121.0 L 173.0 135.0 L 169.5 138.5 L 70.5 138.5 L 67.0 135.0 L 67.0 121.0 Z" fill="#eaf0f4" stroke="#cbd6df" stroke-width="0.9"/><text x="120.0" y="132" fill="#415461" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.7" font-weight="500" text-anchor="middle">Linux · Docker</text>
+
+  <g transform="translate(382.0, 123.5)" stroke="#5c707d" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="8.8" x2="8.8" y2="0"/><polyline points="2.5,0 8.8,0 8.8,6.3"/></g>
+</svg>

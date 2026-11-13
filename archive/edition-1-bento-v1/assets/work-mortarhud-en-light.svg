@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="154" viewBox="0 0 414 154" fill="none" role="img" aria-labelledby="wk-mortarhud-light-en-t">
+  <title id="wk-mortarhud-light-en-t">MortarHUD (★ 34)</title>
+  <defs>
+    <linearGradient id="wk-mortarhud-light-en-bg" x1="0" y1="1" x2="414" y2="153" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6f8fb"/>
+    </linearGradient>
+    <radialGradient id="wk-mortarhud-light-en-glow" cx="92%" cy="12%" r="56%">
+      <stop offset="0%" stop-color="#eab308" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#eab308" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wk-mortarhud-light-en-top" x1="18" y1="1" x2="210" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#c98e0a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#c98e0a" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="wk-mortarhud-light-en-clip">
+      <rect x="0.5" y="1" width="413" height="152" rx="11.5"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="1" width="413" height="152" rx="11.5" fill="url(#wk-mortarhud-light-en-bg)" stroke="#d4dce4"/>
+  <rect x="1" y="1.5" width="412" height="151" rx="11" fill="url(#wk-mortarhud-light-en-glow)"/>
+  <line x1="18" y1="1" x2="210" y2="1" stroke="url(#wk-mortarhud-light-en-top)" stroke-width="1.6"/>
+
+  <!-- Subtle corner astrolabe arc -->
+  <g clip-path="url(#wk-mortarhud-light-en-clip)" opacity="0.07">
+    <circle cx="398" cy="14" r="38" stroke="#c28600" stroke-width="0.9"/>
+    <circle cx="398" cy="14" r="56" stroke="#c28600" stroke-width="0.75" stroke-dasharray="2 4"/>
+  </g>
+
+  <!-- Title + Aspect Dot + Star Pill -->
+  <circle cx="25" cy="29.5" r="7" fill="#eab308" fill-opacity="0.16"/>
+  <circle cx="25" cy="29.5" r="3.5" fill="#c28600"/>
+  <text x="38" y="35" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="16.2" font-weight="700" letter-spacing="-0.2">MortarHUD</text>
+
+  <rect x="342" y="18.5" width="52" height="22" rx="11" fill="#fef8e4" stroke="#e3c565" stroke-width="0.9"/>
+  <text x="368.0" y="33.5" fill="#7c5200" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.3" font-weight="600" text-anchor="middle">★ 34</text>
+
+  <!-- Description (2 crisp lines) -->
+  <text x="20" y="64" fill="#374151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.3" font-weight="400">Transparent always-on-top Wardogs mortar HUD solving map</text>
+  <text x="20" y="86.5" fill="#374151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.3" font-weight="400">azimuth &amp; range in real time via OpenCV &amp; Tesseract.</text>
+
+  <!-- Hairline Divider + Stack Chips + Arrow -->
+  <line x1="20" y1="106.5" x2="394" y2="106.5" stroke="#e6ebf1" stroke-width="1"/>
+  <rect x="20" y="118" width="140" height="21" rx="6" fill="#eef2f6" stroke="#d6dee7" stroke-width="0.9"/><circle cx="30" cy="128.5" r="3.2" fill="#178600"/><text x="38" y="132.5" fill="#475569" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="500">C# · WPF / .NET 10</text><rect x="167" y="118" width="46" height="21" rx="6" fill="#eef2f6" stroke="#d6dee7" stroke-width="0.9"/><text x="190.0" y="132.5" fill="#475569" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.8" font-weight="500" text-anchor="middle">v1.1.0</text><rect x="220" y="118" width="136" height="21" rx="6" fill="#eef2f6" stroke="#d6dee7" stroke-width="0.9"/><text x="288.0" y="132.5" fill="#475569" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.8" font-weight="500" text-anchor="middle">OpenCV · Tesseract</text>
+
+  <g transform="translate(383.0, 124.0)" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="9.0" x2="9.0" y2="0"/><polyline points="2.5,0 9.0,0 9.0,6.5"/></g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="42" viewBox="0 0 840 42" fill="none" role="img" aria-labelledby="col-dark">
+  <title id="col-dark">Colophon · Terminal</title>
+  <line x1="0" y1="12.5" x2="840" y2="12.5" stroke="#30363d" stroke-width="1"/>
+  <line x1="0" y1="12.5" x2="16" y2="12.5" stroke="#95c8d2" stroke-width="2"/>
+  <line x1="20" y1="12.5" x2="36" y2="12.5" stroke="#9c55d4" stroke-width="2"/>
+  <line x1="40" y1="12.5" x2="56" y2="12.5" stroke="#e0d23f" stroke-width="2"/>
+  <text x="0" y="31.5" fill="#7d8590" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600" letter-spacing="1.4">COLOPHON · DUSK TERMINAL</text>
+  <text x="840" y="31.5" fill="#7d8590" font-family="Consolas, 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.1" text-anchor="end">MANSUS.CC · END OF INDEX</text>
+</svg>

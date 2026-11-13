@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="154" viewBox="0 0 414 154" fill="none" role="img" aria-labelledby="wk-mortarhud-dark-zh-t">
+  <title id="wk-mortarhud-dark-zh-t">MortarHUD (★ 34)</title>
+  <defs>
+    <linearGradient id="wk-mortarhud-dark-zh-bg" x1="0" y1="1" x2="414" y2="153" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#121822"/>
+      <stop offset="100%" stop-color="#0b0e14"/>
+    </linearGradient>
+    <radialGradient id="wk-mortarhud-dark-zh-glow" cx="92%" cy="12%" r="56%">
+      <stop offset="0%" stop-color="#d8c66b" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#d8c66b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wk-mortarhud-dark-zh-top" x1="18" y1="1" x2="210" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e2cd65" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#e2cd65" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="wk-mortarhud-dark-zh-clip">
+      <rect x="0.5" y="1" width="413" height="152" rx="11.5"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="1" width="413" height="152" rx="11.5" fill="url(#wk-mortarhud-dark-zh-bg)" stroke="#242d3a"/>
+  <rect x="1" y="1.5" width="412" height="151" rx="11" fill="url(#wk-mortarhud-dark-zh-glow)"/>
+  <line x1="18" y1="1" x2="210" y2="1" stroke="url(#wk-mortarhud-dark-zh-top)" stroke-width="1.6"/>
+
+  <!-- Subtle corner astrolabe arc -->
+  <g clip-path="url(#wk-mortarhud-dark-zh-clip)" opacity="0.09">
+    <circle cx="398" cy="14" r="38" stroke="#e5cf63" stroke-width="0.9"/>
+    <circle cx="398" cy="14" r="56" stroke="#e5cf63" stroke-width="0.75" stroke-dasharray="2 4"/>
+  </g>
+
+  <!-- Title + Aspect Dot + Star Pill -->
+  <circle cx="25" cy="29.5" r="7" fill="#d8c66b" fill-opacity="0.20"/>
+  <circle cx="25" cy="29.5" r="3.5" fill="#e5cf63"/>
+  <text x="38" y="35" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="16.2" font-weight="700" letter-spacing="-0.2">MortarHUD</text>
+
+  <rect x="342" y="18.5" width="52" height="22" rx="11" fill="#231e0d" stroke="#685a20" stroke-width="0.9"/>
+  <text x="368.0" y="33.5" fill="#f7e78b" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.3" font-weight="600" text-anchor="middle">★ 34</text>
+
+  <!-- Description (2 crisp lines) -->
+  <text x="14.2" y="64" fill="#b8c3cf" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="12.6" font-weight="400">《Wardogs》透明置顶迫击炮 HUD，通过 OpenCV 与</text>
+  <text x="20" y="86.5" fill="#b8c3cf" font-family="'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="12.6" font-weight="400">Tesseract 读屏实时解算地图方位角与距离。</text>
+
+  <!-- Hairline Divider + Stack Chips + Arrow -->
+  <line x1="20" y1="106.5" x2="394" y2="106.5" stroke="#1d2531" stroke-width="1"/>
+  <rect x="20" y="118" width="140" height="21" rx="6" fill="#151c27" stroke="#273140" stroke-width="0.9"/><circle cx="30" cy="128.5" r="3.2" fill="#178600"/><text x="38" y="132.5" fill="#9aa6b5" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="500">C# · WPF / .NET 10</text><rect x="167" y="118" width="46" height="21" rx="6" fill="#151c27" stroke="#273140" stroke-width="0.9"/><text x="190.0" y="132.5" fill="#9aa6b5" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.8" font-weight="500" text-anchor="middle">v1.1.0</text><rect x="220" y="118" width="136" height="21" rx="6" fill="#151c27" stroke="#273140" stroke-width="0.9"/><text x="288.0" y="132.5" fill="#9aa6b5" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.8" font-weight="500" text-anchor="middle">OpenCV · Tesseract</text>
+
+  <g transform="translate(383.0, 124.0)" stroke="#7d8896" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="9.0" x2="9.0" y2="0"/><polyline points="2.5,0 9.0,0 9.0,6.5"/></g>
+</svg>
