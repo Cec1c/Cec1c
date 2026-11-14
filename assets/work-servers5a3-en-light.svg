@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="414" height="154" viewBox="0 0 414 154" fill="none" role="img" aria-labelledby="wk-servers5a3-light-en-t">
-  <title id="wk-servers5a3-light-en-t">ServerS5A3 (★ 85)</title>
+  <title id="wk-servers5a3-light-en-t">ServerS5A3 (★ 86)</title>
   <defs>
     <linearGradient id="wk-servers5a3-light-en-bg" x1="0" y1="1" x2="414" y2="153" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#fcfcfd"/>
@@ -33,7 +33,7 @@
   <text x="40" y="35" fill="#101c24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.2">ServerS5A3</text>
 
   <path d="M 344.5 18.5 L 387.5 18.5 L 392.0 23.0 L 392.0 36.0 L 387.5 40.5 L 344.5 40.5 L 340.0 36.0 L 340.0 23.0 Z" fill="#f4eefb" stroke="#bfa5e3" stroke-width="0.9"/>
-  <text x="366.0" y="33.5" fill="#4c1d7a" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.2" font-weight="600" text-anchor="middle">★ 85</text>
+  <text x="366.0" y="33.5" fill="#4c1d7a" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11.2" font-weight="600" text-anchor="middle">★ 86</text>
 
   <!-- Description (2 crisp lines) -->
   <text x="21" y="64" fill="#364652" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="12.2" font-weight="400">Go Linux server &amp; persistence core for a retro side-scrolling</text>
