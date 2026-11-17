@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="124" viewBox="0 0 273 124" fill="none" role="img" aria-labelledby="up-pebrel-dark-en-t">
-  <title id="up-pebrel-dark-en-t">Kuddev/pebrel (Merged #307 · #293)</title>
+  <title id="up-pebrel-dark-en-t">Kuddev/pebrel (Merged #966 · #949 · #307)</title>
   <defs>
     <linearGradient id="up-pebrel-dark-en-bg" x1="0" y1="1" x2="273" y2="123" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0b1118"/>
@@ -31,8 +31,8 @@
   <text x="17" y="84.5" fill="#aebdc7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans CJK SC', system-ui, sans-serif" font-size="11.5">appearance config persistence</text>
 
   <!-- Chamfered Merged PR Plaque -->
-  <path d="M 20.8 94.5 L 148.2 94.5 L 152.0 98.3 L 152.0 109.7 L 148.2 113.5 L 20.8 113.5 L 17.0 109.7 L 17.0 98.3 Z" fill="#171024" stroke="#48306b" stroke-width="0.9"/>
-  <text x="84.5" y="107.5" fill="#a978e0" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="600" text-anchor="middle">Merged #307 · #293</text>
+  <path d="M 20.8 94.5 L 194.2 94.5 L 198.0 98.3 L 198.0 109.7 L 194.2 113.5 L 20.8 113.5 L 17.0 109.7 L 17.0 98.3 Z" fill="#171024" stroke="#48306b" stroke-width="0.9"/>
+  <text x="107.5" y="107.5" fill="#a978e0" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10.3" font-weight="600" text-anchor="middle">Merged #966 · #949 · #307</text>
 
   <g transform="translate(248.0, 100.0)" stroke="#70828f" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="0" y1="7.8" x2="7.8" y2="0"/><polyline points="2.2,0 7.8,0 7.8,5.6"/></g>
 </svg>
